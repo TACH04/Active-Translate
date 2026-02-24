@@ -1,0 +1,31 @@
+# Fast, Lightweight Media Streamer Backend
+
+The local server for streaming media and serving transcript data has been successfully implemented using `FastAPI` and `Uvicorn`.
+
+## Changes Made
+
+A dedicated `backend` directory was created containing the following structure:
+
+- **[backend/main.py](file:///Users/tannerhochberg/Desktop/Dad's Reader/backend/main.py)**: The entrypoint of the FastAPI app, configured with CORS middleware for local frontend development.
+- **[backend/routes.py](file:///Users/tannerhochberg/Desktop/Dad's Reader/backend/routes.py)**: Defines the REST endpoints `/api/transcript/{transcript_id}` and `/api/media/{media_id}`.
+- **[backend/services.py](file:///Users/tannerhochberg/Desktop/Dad's Reader/backend/services.py)**: Contains the rigorous business logic for the strict 206 Partial Content range requests, allowing accurate scrubbing of large audio files in the browser.
+- **[backend/requirements.txt](file:///Users/tannerhochberg/Desktop/Dad's Reader/backend/requirements.txt)**: Minimal requirements list: `fastapi`, `uvicorn`, `aiofiles`.
+- **[backend/README.md](file:///Users/tannerhochberg/Desktop/Dad's Reader/backend/README.md)**: Includes all instructions on how to install packages and start the Uvicorn server locally.
+
+## What Was Tested
+
+All backend implementations were built locally and checked with Python's built-in compile tooling. No static syntax errors exist. 
+
+## Getting Started
+
+In your terminal, you can start the server:
+
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+Then you can access your endpoints at `http://localhost:8000/api/...`.

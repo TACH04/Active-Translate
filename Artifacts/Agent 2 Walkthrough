@@ -1,0 +1,32 @@
+# Spanish MLX Whisper Transcriber
+
+I have implemented the local machine learning transcription module as requested. This module is optimized for Apple Silicon using the `mlx-whisper` library.
+
+## Changes Made
+
+### Transcription Logic
+#### [transcriber.py](file:///Users/tannerhochberg/Desktop/Dad's%20Reader/transcriber.py)
+- **Native MLX Acceleration**: Uses `mlx-whisper` for fast inference on Mac GPUs.
+- **Forced Spanish**: Explicitly sets `language="es"` for high accuracy on European Spanish.
+- **Timestamp Synchronization**: Calculates the exact duration of each `.wav` chunk to build a continuous, synchronized timeline for the final JSON.
+- **Word-Level Precision**: Extracts word-level start and end times.
+- **JSON Export**: Outputs a structured `transcript.json` with `text`, `start_time`, and `end_time` keys.
+
+## Setup & Requirements
+
+I've provided a [requirements.txt](file:///Users/tannerhochberg/Desktop/Dad's%20Reader/requirements.txt) file. You can install the dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+> [!IMPORTANT]
+> This module requires macOS and an Apple Silicon (M1/M2/M3) chip to utilize the MLX acceleration.
+
+## Usage
+
+To run the transcription, place your `.wav` chunks in a directory (defaulting to `staging/`) and run:
+
+```bash
+python transcriber.py --staging-dir ./staging --output transcript.json
+```

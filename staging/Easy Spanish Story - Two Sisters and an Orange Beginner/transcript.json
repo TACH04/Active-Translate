@@ -1,0 +1,3372 @@
+[
+  {
+    "text": "Buenos",
+    "start_time": 0.0,
+    "end_time": 0.46
+  },
+  {
+    "text": "días,",
+    "start_time": 0.46,
+    "end_time": 0.72
+  },
+  {
+    "text": "buenas",
+    "start_time": 0.88,
+    "end_time": 1.68
+  },
+  {
+    "text": "tardes,",
+    "start_time": 1.68,
+    "end_time": 2.16
+  },
+  {
+    "text": "buenas",
+    "start_time": 2.16,
+    "end_time": 3.0
+  },
+  {
+    "text": "noches.",
+    "start_time": 3.0,
+    "end_time": 3.48
+  },
+  {
+    "text": "Bienvenidos",
+    "start_time": 3.98,
+    "end_time": 4.94
+  },
+  {
+    "text": "a",
+    "start_time": 4.94,
+    "end_time": 5.54
+  },
+  {
+    "text": "Story",
+    "start_time": 5.54,
+    "end_time": 5.88
+  },
+  {
+    "text": "Learning",
+    "start_time": 5.88,
+    "end_time": 6.22
+  },
+  {
+    "text": "Spanish.",
+    "start_time": 6.22,
+    "end_time": 6.66
+  },
+  {
+    "text": "Mi",
+    "start_time": 7.74,
+    "end_time": 8.22
+  },
+  {
+    "text": "nombre",
+    "start_time": 8.22,
+    "end_time": 8.58
+  },
+  {
+    "text": "es",
+    "start_time": 8.58,
+    "end_time": 9.1
+  },
+  {
+    "text": "Francisco",
+    "start_time": 9.1,
+    "end_time": 9.66
+  },
+  {
+    "text": "y",
+    "start_time": 9.66,
+    "end_time": 10.22
+  },
+  {
+    "text": "hoy",
+    "start_time": 10.22,
+    "end_time": 10.78
+  },
+  {
+    "text": "vamos",
+    "start_time": 10.78,
+    "end_time": 11.28
+  },
+  {
+    "text": "a",
+    "start_time": 11.28,
+    "end_time": 11.5
+  },
+  {
+    "text": "escuchar",
+    "start_time": 11.5,
+    "end_time": 11.9
+  },
+  {
+    "text": "una",
+    "start_time": 11.9,
+    "end_time": 12.1
+  },
+  {
+    "text": "versión",
+    "start_time": 12.1,
+    "end_time": 12.42
+  },
+  {
+    "text": "de",
+    "start_time": 12.42,
+    "end_time": 12.58
+  },
+  {
+    "text": "la",
+    "start_time": 12.58,
+    "end_time": 12.66
+  },
+  {
+    "text": "historia",
+    "start_time": 12.66,
+    "end_time": 12.98
+  },
+  {
+    "text": "Las",
+    "start_time": 12.98,
+    "end_time": 13.88
+  },
+  {
+    "text": "dos",
+    "start_time": 13.88,
+    "end_time": 14.1
+  },
+  {
+    "text": "hermanas",
+    "start_time": 14.1,
+    "end_time": 14.6
+  },
+  {
+    "text": "y",
+    "start_time": 14.6,
+    "end_time": 15.18
+  },
+  {
+    "text": "la",
+    "start_time": 15.18,
+    "end_time": 16.18
+  },
+  {
+    "text": "naranja.",
+    "start_time": 16.18,
+    "end_time": 16.68
+  },
+  {
+    "text": "Había",
+    "start_time": 18.34,
+    "end_time": 18.82
+  },
+  {
+    "text": "una",
+    "start_time": 18.82,
+    "end_time": 18.94
+  },
+  {
+    "text": "vez,",
+    "start_time": 18.94,
+    "end_time": 19.3
+  },
+  {
+    "text": "hace",
+    "start_time": 19.3,
+    "end_time": 20.7
+  },
+  {
+    "text": "poco",
+    "start_time": 20.7,
+    "end_time": 21.36
+  },
+  {
+    "text": "tiempo,",
+    "start_time": 21.36,
+    "end_time": 22.2
+  },
+  {
+    "text": "un",
+    "start_time": 22.52,
+    "end_time": 23.62
+  },
+  {
+    "text": "hombre.",
+    "start_time": 23.62,
+    "end_time": 23.92
+  },
+  {
+    "text": "Su",
+    "start_time": 28.02,
+    "end_time": 29.42
+  },
+  {
+    "text": "nombre",
+    "start_time": 29.42,
+    "end_time": 29.84
+  },
+  {
+    "text": "es",
+    "start_time": 29.84,
+    "end_time": 31.04
+  },
+  {
+    "text": "Alonso.",
+    "start_time": 31.04,
+    "end_time": 32.3
+  },
+  {
+    "text": "Y",
+    "start_time": 35.74,
+    "end_time": 37.14
+  },
+  {
+    "text": "Alonso",
+    "start_time": 37.14,
+    "end_time": 37.84
+  },
+  {
+    "text": "vive",
+    "start_time": 37.84,
+    "end_time": 38.76
+  },
+  {
+    "text": "en",
+    "start_time": 38.76,
+    "end_time": 40.1
+  },
+  {
+    "text": "España.",
+    "start_time": 40.1,
+    "end_time": 40.72
+  },
+  {
+    "text": "España",
+    "start_time": 44.96,
+    "end_time": 46.36
+  },
+  {
+    "text": "es",
+    "start_time": 46.36,
+    "end_time": 47.3
+  },
+  {
+    "text": "un",
+    "start_time": 47.3,
+    "end_time": 48.44
+  },
+  {
+    "text": "país",
+    "start_time": 48.44,
+    "end_time": 49.0
+  },
+  {
+    "text": "como",
+    "start_time": 49.0,
+    "end_time": 50.04
+  },
+  {
+    "text": "Estados",
+    "start_time": 50.04,
+    "end_time": 51.36
+  },
+  {
+    "text": "Unidos,",
+    "start_time": 51.36,
+    "end_time": 52.0
+  },
+  {
+    "text": "Estados",
+    "start_time": 52.26,
+    "end_time": 53.86
+  },
+  {
+    "text": "Unidos,",
+    "start_time": 53.86,
+    "end_time": 53.9
+  },
+  {
+    "text": "Francia,",
+    "start_time": 53.9,
+    "end_time": 54.2
+  },
+  {
+    "text": "Inglaterra,",
+    "start_time": 54.32,
+    "end_time": 56.28
+  },
+  {
+    "text": "Portugal.",
+    "start_time": 56.3,
+    "end_time": 57.1
+  },
+  {
+    "text": "Son",
+    "start_time": 57.7,
+    "end_time": 58.62
+  },
+  {
+    "text": "países.",
+    "start_time": 58.62,
+    "end_time": 59.26
+  },
+  {
+    "text": "Y",
+    "start_time": 60.78,
+    "end_time": 61.24
+  },
+  {
+    "text": "Alonso",
+    "start_time": 61.24,
+    "end_time": 61.74
+  },
+  {
+    "text": "es",
+    "start_time": 61.74,
+    "end_time": 62.56
+  },
+  {
+    "text": "un",
+    "start_time": 62.56,
+    "end_time": 62.9
+  },
+  {
+    "text": "hombre",
+    "start_time": 62.9,
+    "end_time": 63.32
+  },
+  {
+    "text": "muy",
+    "start_time": 63.32,
+    "end_time": 63.74
+  },
+  {
+    "text": "bueno",
+    "start_time": 63.74,
+    "end_time": 64.12
+  },
+  {
+    "text": "y",
+    "start_time": 64.12,
+    "end_time": 65.3
+  },
+  {
+    "text": "muy",
+    "start_time": 65.3,
+    "end_time": 65.62
+  },
+  {
+    "text": "amable.",
+    "start_time": 65.62,
+    "end_time": 66.28
+  },
+  {
+    "text": "Alonso",
+    "start_time": 70.6,
+    "end_time": 71.52
+  },
+  {
+    "text": "es",
+    "start_time": 71.52,
+    "end_time": 71.86
+  },
+  {
+    "text": "bueno",
+    "start_time": 71.86,
+    "end_time": 72.16
+  },
+  {
+    "text": "y",
+    "start_time": 77.12,
+    "end_time": 78.04
+  },
+  {
+    "text": "es",
+    "start_time": 78.04,
+    "end_time": 78.96
+  },
+  {
+    "text": "amable.",
+    "start_time": 78.96,
+    "end_time": 80.14
+  },
+  {
+    "text": "Y",
+    "start_time": 83.9,
+    "end_time": 84.5
+  },
+  {
+    "text": "Alonso",
+    "start_time": 84.5,
+    "end_time": 84.94
+  },
+  {
+    "text": "vive",
+    "start_time": 84.94,
+    "end_time": 85.4
+  },
+  {
+    "text": "en",
+    "start_time": 85.4,
+    "end_time": 85.58
+  },
+  {
+    "text": "una",
+    "start_time": 85.58,
+    "end_time": 85.72
+  },
+  {
+    "text": "casa",
+    "start_time": 85.72,
+    "end_time": 85.98
+  },
+  {
+    "text": "muy",
+    "start_time": 85.98,
+    "end_time": 86.78
+  },
+  {
+    "text": "grande.",
+    "start_time": 86.78,
+    "end_time": 87.24
+  },
+  {
+    "text": "Una",
+    "start_time": 90.34,
+    "end_time": 91.34
+  },
+  {
+    "text": "casa",
+    "start_time": 91.34,
+    "end_time": 91.66
+  },
+  {
+    "text": "muy",
+    "start_time": 91.66,
+    "end_time": 92.44
+  },
+  {
+    "text": "grande.",
+    "start_time": 92.44,
+    "end_time": 92.92
+  },
+  {
+    "text": "Y",
+    "start_time": 94.12,
+    "end_time": 95.12
+  },
+  {
+    "text": "la",
+    "start_time": 95.12,
+    "end_time": 95.38
+  },
+  {
+    "text": "casa",
+    "start_time": 95.38,
+    "end_time": 95.82
+  },
+  {
+    "text": "de",
+    "start_time": 95.82,
+    "end_time": 96.78
+  },
+  {
+    "text": "Alonso",
+    "start_time": 96.78,
+    "end_time": 97.34
+  },
+  {
+    "text": "tiene",
+    "start_time": 97.34,
+    "end_time": 98.58
+  },
+  {
+    "text": "un",
+    "start_time": 98.58,
+    "end_time": 98.78
+  },
+  {
+    "text": "jardín",
+    "start_time": 98.78,
+    "end_time": 99.32
+  },
+  {
+    "text": "muy",
+    "start_time": 99.32,
+    "end_time": 101.16
+  },
+  {
+    "text": "hermoso.",
+    "start_time": 101.16,
+    "end_time": 101.9
+  },
+  {
+    "text": "Muy",
+    "start_time": 102.46,
+    "end_time": 103.46
+  },
+  {
+    "text": "hermoso.",
+    "start_time": 103.46,
+    "end_time": 105.62
+  },
+  {
+    "text": "Muy",
+    "start_time": 106.82,
+    "end_time": 106.82
+  },
+  {
+    "text": "hermoso.",
+    "start_time": 106.82,
+    "end_time": 109.08
+  },
+  {
+    "text": "Tiene",
+    "start_time": 110.14,
+    "end_time": 110.64
+  },
+  {
+    "text": "un",
+    "start_time": 110.64,
+    "end_time": 110.78
+  },
+  {
+    "text": "jardín",
+    "start_time": 110.78,
+    "end_time": 111.24
+  },
+  {
+    "text": "muy,",
+    "start_time": 111.24,
+    "end_time": 112.96
+  },
+  {
+    "text": "muy",
+    "start_time": 113.06,
+    "end_time": 113.38
+  },
+  {
+    "text": "hermoso.",
+    "start_time": 113.38,
+    "end_time": 113.88
+  },
+  {
+    "text": "Un",
+    "start_time": 113.9,
+    "end_time": 115.5
+  },
+  {
+    "text": "jardín",
+    "start_time": 115.5,
+    "end_time": 116.0
+  },
+  {
+    "text": "con",
+    "start_time": 116.0,
+    "end_time": 116.48
+  },
+  {
+    "text": "muchas,",
+    "start_time": 116.48,
+    "end_time": 116.98
+  },
+  {
+    "text": "muchas",
+    "start_time": 117.1,
+    "end_time": 117.58
+  },
+  {
+    "text": "flores.",
+    "start_time": 117.58,
+    "end_time": 118.18
+  },
+  {
+    "text": "Y",
+    "start_time": 126.68,
+    "end_time": 127.56
+  },
+  {
+    "text": "en",
+    "start_time": 127.56,
+    "end_time": 128.44
+  },
+  {
+    "text": "el",
+    "start_time": 128.44,
+    "end_time": 128.86
+  },
+  {
+    "text": "jardín",
+    "start_time": 128.86,
+    "end_time": 129.28
+  },
+  {
+    "text": "de",
+    "start_time": 129.28,
+    "end_time": 129.4
+  },
+  {
+    "text": "Alonso",
+    "start_time": 129.4,
+    "end_time": 129.8
+  },
+  {
+    "text": "hay",
+    "start_time": 129.8,
+    "end_time": 131.42
+  },
+  {
+    "text": "un",
+    "start_time": 131.42,
+    "end_time": 131.78
+  },
+  {
+    "text": "árbol.",
+    "start_time": 131.78,
+    "end_time": 132.22
+  },
+  {
+    "text": "Hay",
+    "start_time": 140.5,
+    "end_time": 141.38
+  },
+  {
+    "text": "un",
+    "start_time": 141.38,
+    "end_time": 141.76
+  },
+  {
+    "text": "árbol.",
+    "start_time": 141.76,
+    "end_time": 142.46
+  },
+  {
+    "text": "Hay",
+    "start_time": 142.54,
+    "end_time": 143.38
+  },
+  {
+    "text": "un",
+    "start_time": 143.38,
+    "end_time": 143.38
+  },
+  {
+    "text": "árbol.",
+    "start_time": 143.38,
+    "end_time": 143.38
+  },
+  {
+    "text": "Hay",
+    "start_time": 143.62,
+    "end_time": 143.88
+  },
+  {
+    "text": "un",
+    "start_time": 143.88,
+    "end_time": 143.88
+  },
+  {
+    "text": "árbol.",
+    "start_time": 143.88,
+    "end_time": 143.88
+  },
+  {
+    "text": "Alonso",
+    "start_time": 149.54,
+    "end_time": 150.42
+  },
+  {
+    "text": "vive",
+    "start_time": 150.42,
+    "end_time": 151.08
+  },
+  {
+    "text": "en",
+    "start_time": 151.08,
+    "end_time": 151.24
+  },
+  {
+    "text": "su",
+    "start_time": 151.24,
+    "end_time": 151.38
+  },
+  {
+    "text": "casa",
+    "start_time": 151.38,
+    "end_time": 151.66
+  },
+  {
+    "text": "con",
+    "start_time": 151.66,
+    "end_time": 152.96
+  },
+  {
+    "text": "sus",
+    "start_time": 152.96,
+    "end_time": 153.24
+  },
+  {
+    "text": "dos",
+    "start_time": 153.24,
+    "end_time": 153.5
+  },
+  {
+    "text": "hijas.",
+    "start_time": 153.5,
+    "end_time": 154.3
+  },
+  {
+    "text": "Alonso",
+    "start_time": 155.14,
+    "end_time": 156.02
+  },
+  {
+    "text": "tiene",
+    "start_time": 156.02,
+    "end_time": 158.04
+  },
+  {
+    "text": "dos",
+    "start_time": 158.04,
+    "end_time": 158.32
+  },
+  {
+    "text": "hijas.",
+    "start_time": 158.32,
+    "end_time": 158.98
+  },
+  {
+    "text": "Tiene",
+    "start_time": 167.8,
+    "end_time": 168.68
+  },
+  {
+    "text": "dos",
+    "start_time": 168.68,
+    "end_time": 168.92
+  },
+  {
+    "text": "hijas.",
+    "start_time": 168.92,
+    "end_time": 169.74
+  },
+  {
+    "text": "Dos",
+    "start_time": 169.8,
+    "end_time": 170.68
+  },
+  {
+    "text": "hijas",
+    "start_time": 170.68,
+    "end_time": 171.12
+  },
+  {
+    "text": "muy",
+    "start_time": 171.12,
+    "end_time": 171.54
+  },
+  {
+    "text": "pequeñas.",
+    "start_time": 171.54,
+    "end_time": 172.1
+  },
+  {
+    "text": "Y",
+    "start_time": 172.5,
+    "end_time": 173.38
+  },
+  {
+    "text": "sus",
+    "start_time": 173.38,
+    "end_time": 173.56
+  },
+  {
+    "text": "dos",
+    "start_time": 173.56,
+    "end_time": 173.78
+  },
+  {
+    "text": "hijos",
+    "start_time": 173.78,
+    "end_time": 173.88
+  },
+  {
+    "text": "son",
+    "start_time": 173.88,
+    "end_time": 173.88
+  },
+  {
+    "text": "los",
+    "start_time": 173.88,
+    "end_time": 173.88
+  },
+  {
+    "text": "que",
+    "start_time": 173.88,
+    "end_time": 173.88
+  },
+  {
+    "text": "más",
+    "start_time": 173.88,
+    "end_time": 173.88
+  },
+  {
+    "text": "le",
+    "start_time": 173.88,
+    "end_time": 173.88
+  },
+  {
+    "text": "gustan.",
+    "start_time": 173.88,
+    "end_time": 173.88
+  },
+  {
+    "text": "Y",
+    "start_time": 173.88,
+    "end_time": 173.92
+  },
+  {
+    "text": "sus",
+    "start_time": 173.92,
+    "end_time": 173.92
+  },
+  {
+    "text": "dos",
+    "start_time": 173.92,
+    "end_time": 173.92
+  },
+  {
+    "text": "hijas",
+    "start_time": 173.92,
+    "end_time": 174.3
+  },
+  {
+    "text": "son",
+    "start_time": 174.3,
+    "end_time": 175.32
+  },
+  {
+    "text": "muy,",
+    "start_time": 175.32,
+    "end_time": 175.8
+  },
+  {
+    "text": "muy",
+    "start_time": 175.9,
+    "end_time": 176.34
+  },
+  {
+    "text": "inteligentes.",
+    "start_time": 176.34,
+    "end_time": 177.16
+  },
+  {
+    "text": "Y",
+    "start_time": 183.32,
+    "end_time": 184.28
+  },
+  {
+    "text": "aman",
+    "start_time": 184.28,
+    "end_time": 184.84
+  },
+  {
+    "text": "aman",
+    "start_time": 186.06,
+    "end_time": 187.02
+  },
+  {
+    "text": "estudiar.",
+    "start_time": 191.7,
+    "end_time": 192.66
+  },
+  {
+    "text": "Estudiar.",
+    "start_time": 200.76,
+    "end_time": 201.72
+  },
+  {
+    "text": "Estudiar",
+    "start_time": 201.76,
+    "end_time": 201.76
+  },
+  {
+    "text": "es",
+    "start_time": 201.76,
+    "end_time": 201.84
+  },
+  {
+    "text": "estudiar.",
+    "start_time": 201.84,
+    "end_time": 202.92
+  },
+  {
+    "text": "Eso",
+    "start_time": 203.88,
+    "end_time": 204.62
+  },
+  {
+    "text": "es",
+    "start_time": 204.62,
+    "end_time": 204.78
+  },
+  {
+    "text": "estudiar.",
+    "start_time": 204.78,
+    "end_time": 205.3
+  },
+  {
+    "text": "Aman",
+    "start_time": 206.28,
+    "end_time": 206.8
+  },
+  {
+    "text": "estudiar",
+    "start_time": 206.8,
+    "end_time": 207.4
+  },
+  {
+    "text": "arte,",
+    "start_time": 207.4,
+    "end_time": 208.82
+  },
+  {
+    "text": "literatura,",
+    "start_time": 216.7,
+    "end_time": 217.74
+  },
+  {
+    "text": "matemática.",
+    "start_time": 219.42,
+    "end_time": 220.46
+  },
+  {
+    "text": "Son",
+    "start_time": 222.4,
+    "end_time": 222.92
+  },
+  {
+    "text": "muy",
+    "start_time": 222.92,
+    "end_time": 223.3
+  },
+  {
+    "text": "inteligentes",
+    "start_time": 223.3,
+    "end_time": 223.92
+  },
+  {
+    "text": "y",
+    "start_time": 223.92,
+    "end_time": 224.48
+  },
+  {
+    "text": "aman",
+    "start_time": 224.48,
+    "end_time": 224.88
+  },
+  {
+    "text": "estudiar.",
+    "start_time": 224.88,
+    "end_time": 225.32
+  },
+  {
+    "text": "Y",
+    "start_time": 231.46,
+    "end_time": 232.5
+  },
+  {
+    "text": "aman",
+    "start_time": 232.5,
+    "end_time": 232.72
+  },
+  {
+    "text": "estudiar.",
+    "start_time": 232.72,
+    "end_time": 232.72
+  },
+  {
+    "text": "Y",
+    "start_time": 233.88,
+    "end_time": 234.14
+  },
+  {
+    "text": "las",
+    "start_time": 234.14,
+    "end_time": 234.3
+  },
+  {
+    "text": "hijas",
+    "start_time": 234.3,
+    "end_time": 234.64
+  },
+  {
+    "text": "de",
+    "start_time": 234.64,
+    "end_time": 234.72
+  },
+  {
+    "text": "Alonso",
+    "start_time": 234.72,
+    "end_time": 235.18
+  },
+  {
+    "text": "aman",
+    "start_time": 235.18,
+    "end_time": 236.16
+  },
+  {
+    "text": "jugar",
+    "start_time": 236.16,
+    "end_time": 237.68
+  },
+  {
+    "text": "en",
+    "start_time": 237.68,
+    "end_time": 239.26
+  },
+  {
+    "text": "el",
+    "start_time": 239.26,
+    "end_time": 239.46
+  },
+  {
+    "text": "jardín.",
+    "start_time": 239.46,
+    "end_time": 239.86
+  },
+  {
+    "text": "Juegan",
+    "start_time": 240.26,
+    "end_time": 241.06
+  },
+  {
+    "text": "y",
+    "start_time": 241.06,
+    "end_time": 241.42
+  },
+  {
+    "text": "juegan.",
+    "start_time": 241.42,
+    "end_time": 241.86
+  },
+  {
+    "text": "Les",
+    "start_time": 242.44,
+    "end_time": 243.24
+  },
+  {
+    "text": "gusta",
+    "start_time": 243.24,
+    "end_time": 243.5
+  },
+  {
+    "text": "mucho",
+    "start_time": 243.5,
+    "end_time": 243.88
+  },
+  {
+    "text": "jugar.",
+    "start_time": 243.88,
+    "end_time": 244.94
+  },
+  {
+    "text": "Aman",
+    "start_time": 251.3,
+    "end_time": 252.1
+  },
+  {
+    "text": "jugar",
+    "start_time": 252.1,
+    "end_time": 252.82
+  },
+  {
+    "text": "en",
+    "start_time": 252.82,
+    "end_time": 253.08
+  },
+  {
+    "text": "el",
+    "start_time": 253.08,
+    "end_time": 253.24
+  },
+  {
+    "text": "jardín.",
+    "start_time": 253.24,
+    "end_time": 253.62
+  },
+  {
+    "text": "Pero",
+    "start_time": 257.94,
+    "end_time": 258.74
+  },
+  {
+    "text": "un",
+    "start_time": 258.74,
+    "end_time": 259.54
+  },
+  {
+    "text": "día",
+    "start_time": 259.54,
+    "end_time": 259.82
+  },
+  {
+    "text": "pasó",
+    "start_time": 259.82,
+    "end_time": 262.3
+  },
+  {
+    "text": "algo.",
+    "start_time": 262.3,
+    "end_time": 263.12
+  },
+  {
+    "text": "Pero",
+    "start_time": 263.14,
+    "end_time": 263.86
+  },
+  {
+    "text": "un",
+    "start_time": 263.86,
+    "end_time": 263.86
+  },
+  {
+    "text": "día",
+    "start_time": 263.86,
+    "end_time": 263.86
+  },
+  {
+    "text": "pasó",
+    "start_time": 263.86,
+    "end_time": 263.86
+  },
+  {
+    "text": "algo.",
+    "start_time": 263.86,
+    "end_time": 263.86
+  },
+  {
+    "text": "Un",
+    "start_time": 263.88,
+    "end_time": 264.48
+  },
+  {
+    "text": "día..",
+    "start_time": 264.48,
+    "end_time": 264.76
+  },
+  {
+    "text": "Un",
+    "start_time": 276.08,
+    "end_time": 276.7
+  },
+  {
+    "text": "día..",
+    "start_time": 276.7,
+    "end_time": 276.9
+  },
+  {
+    "text": "Un",
+    "start_time": 276.9,
+    "end_time": 276.9
+  },
+  {
+    "text": "día..",
+    "start_time": 276.9,
+    "end_time": 277.04
+  },
+  {
+    "text": "Un",
+    "start_time": 277.04,
+    "end_time": 277.38
+  },
+  {
+    "text": "día..",
+    "start_time": 277.38,
+    "end_time": 277.38
+  },
+  {
+    "text": "Un",
+    "start_time": 277.38,
+    "end_time": 277.86
+  },
+  {
+    "text": "día..",
+    "start_time": 277.86,
+    "end_time": 278.2
+  },
+  {
+    "text": "Un",
+    "start_time": 278.2,
+    "end_time": 278.72
+  },
+  {
+    "text": "día..",
+    "start_time": 278.72,
+    "end_time": 280.84
+  },
+  {
+    "text": "Un",
+    "start_time": 280.84,
+    "end_time": 280.84
+  },
+  {
+    "text": "día..",
+    "start_time": 280.84,
+    "end_time": 280.98
+  },
+  {
+    "text": "Un",
+    "start_time": 280.98,
+    "end_time": 280.98
+  },
+  {
+    "text": "día..",
+    "start_time": 280.98,
+    "end_time": 281.0
+  },
+  {
+    "text": "Un",
+    "start_time": 281.0,
+    "end_time": 281.0
+  },
+  {
+    "text": "día..",
+    "start_time": 281.0,
+    "end_time": 281.1
+  },
+  {
+    "text": "Un",
+    "start_time": 281.1,
+    "end_time": 281.1
+  },
+  {
+    "text": "día..",
+    "start_time": 281.1,
+    "end_time": 281.24
+  },
+  {
+    "text": "Un",
+    "start_time": 281.24,
+    "end_time": 281.24
+  },
+  {
+    "text": "día..",
+    "start_time": 281.24,
+    "end_time": 281.28
+  },
+  {
+    "text": "Un",
+    "start_time": 281.28,
+    "end_time": 281.28
+  },
+  {
+    "text": "día..",
+    "start_time": 281.28,
+    "end_time": 281.3
+  },
+  {
+    "text": "Un",
+    "start_time": 281.3,
+    "end_time": 281.3
+  },
+  {
+    "text": "día..",
+    "start_time": 281.3,
+    "end_time": 281.34
+  },
+  {
+    "text": "Un",
+    "start_time": 281.34,
+    "end_time": 281.34
+  },
+  {
+    "text": "día..",
+    "start_time": 281.34,
+    "end_time": 281.36
+  },
+  {
+    "text": "Un",
+    "start_time": 281.36,
+    "end_time": 281.82
+  },
+  {
+    "text": "día..",
+    "start_time": 281.82,
+    "end_time": 286.58
+  },
+  {
+    "text": "Un",
+    "start_time": 290.48,
+    "end_time": 291.1
+  },
+  {
+    "text": "día..",
+    "start_time": 291.1,
+    "end_time": 291.72
+  },
+  {
+    "text": "es",
+    "start_time": 291.72,
+    "end_time": 292.98
+  },
+  {
+    "text": "un",
+    "start_time": 292.98,
+    "end_time": 293.46
+  },
+  {
+    "text": "naranjo.",
+    "start_time": 293.46,
+    "end_time": 294.44
+  },
+  {
+    "text": "Un",
+    "start_time": 298.42,
+    "end_time": 299.7
+  },
+  {
+    "text": "naranjo",
+    "start_time": 299.7,
+    "end_time": 300.36
+  },
+  {
+    "text": "es",
+    "start_time": 300.36,
+    "end_time": 301.1
+  },
+  {
+    "text": "un",
+    "start_time": 301.1,
+    "end_time": 301.28
+  },
+  {
+    "text": "árbol",
+    "start_time": 301.28,
+    "end_time": 301.68
+  },
+  {
+    "text": "que",
+    "start_time": 301.68,
+    "end_time": 302.86
+  },
+  {
+    "text": "da",
+    "start_time": 302.86,
+    "end_time": 303.12
+  },
+  {
+    "text": "naranjas.",
+    "start_time": 305.06,
+    "end_time": 306.34
+  },
+  {
+    "text": "En",
+    "start_time": 307.22,
+    "end_time": 308.5
+  },
+  {
+    "text": "el",
+    "start_time": 308.5,
+    "end_time": 308.7
+  },
+  {
+    "text": "naranjo",
+    "start_time": 308.7,
+    "end_time": 309.3
+  },
+  {
+    "text": "hay",
+    "start_time": 309.3,
+    "end_time": 311.4
+  },
+  {
+    "text": "naranjas.",
+    "start_time": 311.4,
+    "end_time": 312.04
+  },
+  {
+    "text": "Naranja.",
+    "start_time": 314.38,
+    "end_time": 315.66
+  },
+  {
+    "text": "Y",
+    "start_time": 321.72,
+    "end_time": 322.48
+  },
+  {
+    "text": "de",
+    "start_time": 322.48,
+    "end_time": 322.62
+  },
+  {
+    "text": "pronto,",
+    "start_time": 322.62,
+    "end_time": 323.14
+  },
+  {
+    "text": "de",
+    "start_time": 323.74,
+    "end_time": 324.18
+  },
+  {
+    "text": "pronto,",
+    "start_time": 324.18,
+    "end_time": 324.62
+  },
+  {
+    "text": "de",
+    "start_time": 329.46,
+    "end_time": 330.34
+  },
+  {
+    "text": "pronto,",
+    "start_time": 330.34,
+    "end_time": 331.22
+  },
+  {
+    "text": "las",
+    "start_time": 331.22,
+    "end_time": 332.7
+  },
+  {
+    "text": "dos",
+    "start_time": 332.7,
+    "end_time": 333.12
+  },
+  {
+    "text": "hijas",
+    "start_time": 333.12,
+    "end_time": 333.92
+  },
+  {
+    "text": "comienzan",
+    "start_time": 335.2,
+    "end_time": 336.08
+  },
+  {
+    "text": "a",
+    "start_time": 336.08,
+    "end_time": 336.26
+  },
+  {
+    "text": "pelear.",
+    "start_time": 336.26,
+    "end_time": 336.66
+  },
+  {
+    "text": "Pelear",
+    "start_time": 336.78,
+    "end_time": 337.44
+  },
+  {
+    "text": "es...",
+    "start_time": 337.44,
+    "end_time": 337.88
+  },
+  {
+    "text": "A",
+    "start_time": 339.22,
+    "end_time": 340.1
+  },
+  {
+    "text": "pelear",
+    "start_time": 340.1,
+    "end_time": 340.98
+  },
+  {
+    "text": "y",
+    "start_time": 340.98,
+    "end_time": 341.16
+  },
+  {
+    "text": "a",
+    "start_time": 341.16,
+    "end_time": 341.3
+  },
+  {
+    "text": "gritar.",
+    "start_time": 341.3,
+    "end_time": 341.7
+  },
+  {
+    "text": "Pelear",
+    "start_time": 342.68,
+    "end_time": 343.56
+  },
+  {
+    "text": "y",
+    "start_time": 343.56,
+    "end_time": 344.4
+  },
+  {
+    "text": "gritar.",
+    "start_time": 344.4,
+    "end_time": 345.16
+  },
+  {
+    "text": "Pelean,",
+    "start_time": 350.36,
+    "end_time": 351.24
+  },
+  {
+    "text": "pelean,",
+    "start_time": 351.3,
+    "end_time": 351.62
+  },
+  {
+    "text": "pelean.",
+    "start_time": 351.72,
+    "end_time": 351.98
+  },
+  {
+    "text": "Con",
+    "start_time": 354.96,
+    "end_time": 356.04
+  },
+  {
+    "text": "las",
+    "start_time": 356.04,
+    "end_time": 357.12
+  },
+  {
+    "text": "niñas",
+    "start_time": 357.12,
+    "end_time": 357.58
+  },
+  {
+    "text": "estaba",
+    "start_time": 359.38,
+    "end_time": 360.46
+  },
+  {
+    "text": "en",
+    "start_time": 360.46,
+    "end_time": 361.02
+  },
+  {
+    "text": "el",
+    "start_time": 361.02,
+    "end_time": 361.18
+  },
+  {
+    "text": "jardín",
+    "start_time": 361.18,
+    "end_time": 361.66
+  },
+  {
+    "text": "su",
+    "start_time": 361.66,
+    "end_time": 362.2
+  },
+  {
+    "text": "maestro.",
+    "start_time": 362.2,
+    "end_time": 363.14
+  },
+  {
+    "text": "Su",
+    "start_time": 363.94,
+    "end_time": 364.48
+  },
+  {
+    "text": "maestro.",
+    "start_time": 364.48,
+    "end_time": 365.24
+  },
+  {
+    "text": "El",
+    "start_time": 367.24,
+    "end_time": 368.32
+  },
+  {
+    "text": "maestro",
+    "start_time": 368.32,
+    "end_time": 368.86
+  },
+  {
+    "text": "es",
+    "start_time": 368.86,
+    "end_time": 369.5
+  },
+  {
+    "text": "la",
+    "start_time": 369.5,
+    "end_time": 369.84
+  },
+  {
+    "text": "persona",
+    "start_time": 369.84,
+    "end_time": 370.28
+  },
+  {
+    "text": "con",
+    "start_time": 371.78,
+    "end_time": 372.86
+  },
+  {
+    "text": "quien",
+    "start_time": 372.86,
+    "end_time": 373.18
+  },
+  {
+    "text": "las",
+    "start_time": 373.18,
+    "end_time": 373.52
+  },
+  {
+    "text": "niñas",
+    "start_time": 373.52,
+    "end_time": 373.94
+  },
+  {
+    "text": "estudian",
+    "start_time": 373.94,
+    "end_time": 374.96
+  },
+  {
+    "text": "arte,",
+    "start_time": 374.96,
+    "end_time": 375.38
+  },
+  {
+    "text": "literatura,",
+    "start_time": 375.84,
+    "end_time": 376.38
+  },
+  {
+    "text": "matemática.",
+    "start_time": 376.38,
+    "end_time": 377.2
+  },
+  {
+    "text": "El",
+    "start_time": 377.84,
+    "end_time": 378.38
+  },
+  {
+    "text": "maestro",
+    "start_time": 378.38,
+    "end_time": 379.22
+  },
+  {
+    "text": "sabe",
+    "start_time": 379.22,
+    "end_time": 380.96
+  },
+  {
+    "text": "mucho,",
+    "start_time": 380.96,
+    "end_time": 381.5
+  },
+  {
+    "text": "sabe",
+    "start_time": 381.72,
+    "end_time": 382.4
+  },
+  {
+    "text": "mucho",
+    "start_time": 382.4,
+    "end_time": 382.84
+  },
+  {
+    "text": "de",
+    "start_time": 382.84,
+    "end_time": 383.8
+  },
+  {
+    "text": "matemática,",
+    "start_time": 383.8,
+    "end_time": 384.5
+  },
+  {
+    "text": "de",
+    "start_time": 384.6,
+    "end_time": 384.72
+  },
+  {
+    "text": "literatura",
+    "start_time": 384.72,
+    "end_time": 385.32
+  },
+  {
+    "text": "y",
+    "start_time": 385.32,
+    "end_time": 385.62
+  },
+  {
+    "text": "arte",
+    "start_time": 385.62,
+    "end_time": 385.92
+  },
+  {
+    "text": "y",
+    "start_time": 385.92,
+    "end_time": 386.56
+  },
+  {
+    "text": "es",
+    "start_time": 386.56,
+    "end_time": 386.72
+  },
+  {
+    "text": "muy",
+    "start_time": 386.72,
+    "end_time": 386.92
+  },
+  {
+    "text": "inteligente.",
+    "start_time": 386.92,
+    "end_time": 387.6
+  },
+  {
+    "text": "Y",
+    "start_time": 387.8,
+    "end_time": 388.64
+  },
+  {
+    "text": "las",
+    "start_time": 388.64,
+    "end_time": 388.82
+  },
+  {
+    "text": "niñas",
+    "start_time": 388.82,
+    "end_time": 389.16
+  },
+  {
+    "text": "jugaban",
+    "start_time": 389.16,
+    "end_time": 389.64
+  },
+  {
+    "text": "en",
+    "start_time": 391.02,
+    "end_time": 391.86
+  },
+  {
+    "text": "el",
+    "start_time": 391.86,
+    "end_time": 392.04
+  },
+  {
+    "text": "naranjo",
+    "start_time": 392.04,
+    "end_time": 392.56
+  },
+  {
+    "text": "con",
+    "start_time": 392.56,
+    "end_time": 393.52
+  },
+  {
+    "text": "el",
+    "start_time": 393.52,
+    "end_time": 395.04
+  },
+  {
+    "text": "maestro",
+    "start_time": 395.04,
+    "end_time": 395.52
+  },
+  {
+    "text": "cuando",
+    "start_time": 396.94,
+    "end_time": 397.78
+  },
+  {
+    "text": "comenzaron",
+    "start_time": 397.78,
+    "end_time": 398.62
+  },
+  {
+    "text": "a",
+    "start_time": 398.62,
+    "end_time": 398.9
+  },
+  {
+    "text": "pelear",
+    "start_time": 398.9,
+    "end_time": 399.3
+  },
+  {
+    "text": "y",
+    "start_time": 399.3,
+    "end_time": 399.56
+  },
+  {
+    "text": "a",
+    "start_time": 399.56,
+    "end_time": 399.66
+  },
+  {
+    "text": "gritar.",
+    "start_time": 399.66,
+    "end_time": 400.02
+  },
+  {
+    "text": "Y",
+    "start_time": 400.1,
+    "end_time": 400.8
+  },
+  {
+    "text": "Alonso,",
+    "start_time": 400.8,
+    "end_time": 401.32
+  },
+  {
+    "text": "el",
+    "start_time": 402.24,
+    "end_time": 402.66
+  },
+  {
+    "text": "padre",
+    "start_time": 402.66,
+    "end_time": 403.08
+  },
+  {
+    "text": "de",
+    "start_time": 404.0,
+    "end_time": 404.84
+  },
+  {
+    "text": "las",
+    "start_time": 404.84,
+    "end_time": 404.94
+  },
+  {
+    "text": "dos",
+    "start_time": 404.94,
+    "end_time": 405.12
+  },
+  {
+    "text": "niñas,",
+    "start_time": 405.12,
+    "end_time": 405.52
+  },
+  {
+    "text": "escucha",
+    "start_time": 406.68,
+    "end_time": 407.52
+  },
+  {
+    "text": "los",
+    "start_time": 407.52,
+    "end_time": 408.54
+  },
+  {
+    "text": "gritos.",
+    "start_time": 408.54,
+    "end_time": 409.04
+  },
+  {
+    "text": "¡Ah!",
+    "start_time": 409.04,
+    "end_time": 409.36
+  },
+  {
+    "text": "Y",
+    "start_time": 411.72,
+    "end_time": 411.82
+  },
+  {
+    "text": "está",
+    "start_time": 411.82,
+    "end_time": 412.02
+  },
+  {
+    "text": "muy",
+    "start_time": 412.02,
+    "end_time": 412.24
+  },
+  {
+    "text": "sorprendido.",
+    "start_time": 412.24,
+    "end_time": 413.12
+  },
+  {
+    "text": "Está",
+    "start_time": 414.02,
+    "end_time": 415.22
+  },
+  {
+    "text": "sorprendido.",
+    "start_time": 415.22,
+    "end_time": 416.3
+  },
+  {
+    "text": "¿Eh?",
+    "start_time": 419.6,
+    "end_time": 420.8
+  },
+  {
+    "text": "¿Sorprendido",
+    "start_time": 422.0,
+    "end_time": 423.2
+  },
+  {
+    "text": "es?",
+    "start_time": 423.2,
+    "end_time": 423.3
+  },
+  {
+    "text": "Está",
+    "start_time": 424.06,
+    "end_time": 425.26
+  },
+  {
+    "text": "sorprendido.",
+    "start_time": 425.26,
+    "end_time": 425.94
+  },
+  {
+    "text": "Y",
+    "start_time": 426.04,
+    "end_time": 427.1
+  },
+  {
+    "text": "grita.",
+    "start_time": 427.1,
+    "end_time": 427.76
+  },
+  {
+    "text": "¿Por",
+    "start_time": 427.8,
+    "end_time": 428.56
+  },
+  {
+    "text": "qué",
+    "start_time": 428.56,
+    "end_time": 428.78
+  },
+  {
+    "text": "pelean?",
+    "start_time": 428.78,
+    "end_time": 429.2
+  },
+  {
+    "text": "Grita.",
+    "start_time": 429.86,
+    "end_time": 431.06
+  },
+  {
+    "text": "¿Por",
+    "start_time": 441.72,
+    "end_time": 442.64
+  },
+  {
+    "text": "qué",
+    "start_time": 442.64,
+    "end_time": 442.82
+  },
+  {
+    "text": "pelean?",
+    "start_time": 442.82,
+    "end_time": 443.22
+  },
+  {
+    "text": "¿Por",
+    "start_time": 443.38,
+    "end_time": 444.3
+  },
+  {
+    "text": "qué?",
+    "start_time": 444.3,
+    "end_time": 444.48
+  },
+  {
+    "text": "Y",
+    "start_time": 446.0,
+    "end_time": 446.92
+  },
+  {
+    "text": "el",
+    "start_time": 446.92,
+    "end_time": 447.08
+  },
+  {
+    "text": "maestro,",
+    "start_time": 447.08,
+    "end_time": 447.64
+  },
+  {
+    "text": "el",
+    "start_time": 447.64,
+    "end_time": 448.54
+  },
+  {
+    "text": "maestro,",
+    "start_time": 448.54,
+    "end_time": 449.72
+  },
+  {
+    "text": "le",
+    "start_time": 456.92,
+    "end_time": 457.84
+  },
+  {
+    "text": "dice",
+    "start_time": 457.84,
+    "end_time": 458.24
+  },
+  {
+    "text": "a",
+    "start_time": 458.24,
+    "end_time": 460.24
+  },
+  {
+    "text": "Alonso,",
+    "start_time": 460.24,
+    "end_time": 460.7
+  },
+  {
+    "text": "¿Pelean",
+    "start_time": 460.82,
+    "end_time": 461.88
+  },
+  {
+    "text": "por",
+    "start_time": 461.88,
+    "end_time": 462.38
+  },
+  {
+    "text": "una",
+    "start_time": 462.38,
+    "end_time": 462.62
+  },
+  {
+    "text": "naranja?",
+    "start_time": 462.62,
+    "end_time": 463.18
+  },
+  {
+    "text": "¿Por",
+    "start_time": 463.4,
+    "end_time": 464.32
+  },
+  {
+    "text": "una",
+    "start_time": 464.32,
+    "end_time": 464.54
+  },
+  {
+    "text": "naranja?",
+    "start_time": 464.54,
+    "end_time": 465.04
+  },
+  {
+    "text": "¿Por",
+    "start_time": 465.1,
+    "end_time": 465.86
+  },
+  {
+    "text": "una",
+    "start_time": 465.86,
+    "end_time": 466.04
+  },
+  {
+    "text": "naranja?",
+    "start_time": 466.04,
+    "end_time": 466.58
+  },
+  {
+    "text": "Pregunta",
+    "start_time": 467.18,
+    "end_time": 468.1
+  },
+  {
+    "text": "Alonso.",
+    "start_time": 468.1,
+    "end_time": 468.58
+  },
+  {
+    "text": "Sí.",
+    "start_time": 469.44,
+    "end_time": 470.36
+  },
+  {
+    "text": "¿Por",
+    "start_time": 470.44,
+    "end_time": 471.16
+  },
+  {
+    "text": "qué?",
+    "start_time": 471.16,
+    "end_time": 471.16
+  },
+  {
+    "text": "¿Por",
+    "start_time": 471.36,
+    "end_time": 471.7
+  },
+  {
+    "text": "qué?",
+    "start_time": 471.7,
+    "end_time": 471.7
+  },
+  {
+    "text": "Dice",
+    "start_time": 471.7,
+    "end_time": 472.18
+  },
+  {
+    "text": "el",
+    "start_time": 472.18,
+    "end_time": 472.34
+  },
+  {
+    "text": "maestro.",
+    "start_time": 472.34,
+    "end_time": 472.74
+  },
+  {
+    "text": "El",
+    "start_time": 473.64,
+    "end_time": 474.12
+  },
+  {
+    "text": "árbol",
+    "start_time": 474.12,
+    "end_time": 474.58
+  },
+  {
+    "text": "sólo",
+    "start_time": 475.68,
+    "end_time": 476.64
+  },
+  {
+    "text": "tiene",
+    "start_time": 476.64,
+    "end_time": 477.56
+  },
+  {
+    "text": "una",
+    "start_time": 477.56,
+    "end_time": 478.08
+  },
+  {
+    "text": "naranja.",
+    "start_time": 478.08,
+    "end_time": 478.6
+  },
+  {
+    "text": "El",
+    "start_time": 478.94,
+    "end_time": 479.9
+  },
+  {
+    "text": "árbol",
+    "start_time": 479.9,
+    "end_time": 479.9
+  },
+  {
+    "text": "sólo",
+    "start_time": 479.9,
+    "end_time": 479.9
+  },
+  {
+    "text": "tiene",
+    "start_time": 479.9,
+    "end_time": 479.9
+  },
+  {
+    "text": "una",
+    "start_time": 479.9,
+    "end_time": 479.9
+  },
+  {
+    "text": "naranja.",
+    "start_time": 479.9,
+    "end_time": 479.9
+  },
+  {
+    "text": "Una",
+    "start_time": 479.9,
+    "end_time": 479.9
+  },
+  {
+    "text": "naranja.",
+    "start_time": 479.9,
+    "end_time": 480.42
+  },
+  {
+    "text": "Y",
+    "start_time": 482.08,
+    "end_time": 483.04
+  },
+  {
+    "text": "las",
+    "start_time": 483.04,
+    "end_time": 483.22
+  },
+  {
+    "text": "dos",
+    "start_time": 483.22,
+    "end_time": 483.44
+  },
+  {
+    "text": "niñas",
+    "start_time": 483.44,
+    "end_time": 483.92
+  },
+  {
+    "text": "pelean",
+    "start_time": 483.92,
+    "end_time": 485.1
+  },
+  {
+    "text": "por",
+    "start_time": 485.7,
+    "end_time": 486.26
+  },
+  {
+    "text": "esa",
+    "start_time": 486.26,
+    "end_time": 486.5
+  },
+  {
+    "text": "naranja.",
+    "start_time": 486.5,
+    "end_time": 487.02
+  },
+  {
+    "text": "Naranja,",
+    "start_time": 489.66,
+    "end_time": 490.14
+  },
+  {
+    "text": "mi",
+    "start_time": 490.14,
+    "end_time": 490.28
+  },
+  {
+    "text": "naranja.",
+    "start_time": 490.28,
+    "end_time": 490.6
+  },
+  {
+    "text": "Pelean",
+    "start_time": 490.78,
+    "end_time": 491.44
+  },
+  {
+    "text": "por",
+    "start_time": 491.44,
+    "end_time": 491.78
+  },
+  {
+    "text": "su",
+    "start_time": 491.78,
+    "end_time": 492.02
+  },
+  {
+    "text": "naranja.",
+    "start_time": 492.02,
+    "end_time": 492.8
+  },
+  {
+    "text": "Alonso,",
+    "start_time": 495.26,
+    "end_time": 496.22
+  },
+  {
+    "text": "muy",
+    "start_time": 496.22,
+    "end_time": 497.18
+  },
+  {
+    "text": "enojado.",
+    "start_time": 497.18,
+    "end_time": 497.88
+  },
+  {
+    "text": "Alonso",
+    "start_time": 498.78,
+    "end_time": 499.74
+  },
+  {
+    "text": "estaba",
+    "start_time": 499.74,
+    "end_time": 499.96
+  },
+  {
+    "text": "enojado.",
+    "start_time": 499.96,
+    "end_time": 500.5
+  },
+  {
+    "text": "Alonso",
+    "start_time": 500.5,
+    "end_time": 500.78
+  },
+  {
+    "text": "estaba",
+    "start_time": 500.78,
+    "end_time": 500.78
+  },
+  {
+    "text": "enojado.",
+    "start_time": 500.78,
+    "end_time": 500.78
+  },
+  {
+    "text": "Le",
+    "start_time": 503.2,
+    "end_time": 504.12
+  },
+  {
+    "text": "dice",
+    "start_time": 504.12,
+    "end_time": 504.48
+  },
+  {
+    "text": "al",
+    "start_time": 504.48,
+    "end_time": 504.64
+  },
+  {
+    "text": "maestro.",
+    "start_time": 504.64,
+    "end_time": 505.1
+  },
+  {
+    "text": "Le",
+    "start_time": 505.1,
+    "end_time": 505.38
+  },
+  {
+    "text": "dice",
+    "start_time": 505.38,
+    "end_time": 505.38
+  },
+  {
+    "text": "al",
+    "start_time": 505.38,
+    "end_time": 505.38
+  },
+  {
+    "text": "maestro.",
+    "start_time": 505.38,
+    "end_time": 505.38
+  },
+  {
+    "text": "Toma",
+    "start_time": 505.7,
+    "end_time": 506.62
+  },
+  {
+    "text": "un",
+    "start_time": 506.62,
+    "end_time": 507.12
+  },
+  {
+    "text": "cuchillo.",
+    "start_time": 507.12,
+    "end_time": 507.76
+  },
+  {
+    "text": "Toma",
+    "start_time": 507.8,
+    "end_time": 508.52
+  },
+  {
+    "text": "un",
+    "start_time": 508.52,
+    "end_time": 511.56
+  },
+  {
+    "text": "cuchillo.",
+    "start_time": 511.56,
+    "end_time": 511.82
+  },
+  {
+    "text": "Toma",
+    "start_time": 511.82,
+    "end_time": 511.82
+  },
+  {
+    "text": "un",
+    "start_time": 511.82,
+    "end_time": 511.82
+  },
+  {
+    "text": "cuchillo.",
+    "start_time": 511.82,
+    "end_time": 511.98
+  },
+  {
+    "text": "Toma",
+    "start_time": 512.22,
+    "end_time": 512.54
+  },
+  {
+    "text": "un",
+    "start_time": 512.54,
+    "end_time": 512.54
+  },
+  {
+    "text": "cuchillo.",
+    "start_time": 512.54,
+    "end_time": 512.54
+  },
+  {
+    "text": "Y",
+    "start_time": 514.06,
+    "end_time": 514.98
+  },
+  {
+    "text": "corta",
+    "start_time": 514.98,
+    "end_time": 515.64
+  },
+  {
+    "text": "la",
+    "start_time": 515.64,
+    "end_time": 516.1
+  },
+  {
+    "text": "naranja",
+    "start_time": 516.1,
+    "end_time": 517.1
+  },
+  {
+    "text": "en",
+    "start_time": 517.52,
+    "end_time": 517.98
+  },
+  {
+    "text": "dos",
+    "start_time": 517.98,
+    "end_time": 518.28
+  },
+  {
+    "text": "partes.",
+    "start_time": 518.28,
+    "end_time": 518.8
+  },
+  {
+    "text": "En",
+    "start_time": 519.64,
+    "end_time": 520.56
+  },
+  {
+    "text": "dos",
+    "start_time": 520.56,
+    "end_time": 520.74
+  },
+  {
+    "text": "partes.",
+    "start_time": 520.74,
+    "end_time": 521.04
+  },
+  {
+    "text": "Y",
+    "start_time": 522.46,
+    "end_time": 523.38
+  },
+  {
+    "text": "el",
+    "start_time": 523.38,
+    "end_time": 523.5
+  },
+  {
+    "text": "padre",
+    "start_time": 523.5,
+    "end_time": 523.84
+  },
+  {
+    "text": "de",
+    "start_time": 523.84,
+    "end_time": 524.58
+  },
+  {
+    "text": "las",
+    "start_time": 524.58,
+    "end_time": 525.1
+  },
+  {
+    "text": "niñas",
+    "start_time": 525.1,
+    "end_time": 525.48
+  },
+  {
+    "text": "dice,",
+    "start_time": 525.48,
+    "end_time": 525.94
+  },
+  {
+    "text": "Alonso",
+    "start_time": 526.12,
+    "end_time": 527.04
+  },
+  {
+    "text": "dice,",
+    "start_time": 527.04,
+    "end_time": 527.26
+  },
+  {
+    "text": "media",
+    "start_time": 528.6,
+    "end_time": 529.52
+  },
+  {
+    "text": "naranja",
+    "start_time": 529.52,
+    "end_time": 529.98
+  },
+  {
+    "text": "para",
+    "start_time": 530.44,
+    "end_time": 531.26
+  },
+  {
+    "text": "cada",
+    "start_time": 531.26,
+    "end_time": 531.56
+  },
+  {
+    "text": "naranja.",
+    "start_time": 531.56,
+    "end_time": 531.68
+  },
+  {
+    "text": "Cada",
+    "start_time": 531.7,
+    "end_time": 531.7
+  },
+  {
+    "text": "niña",
+    "start_time": 531.7,
+    "end_time": 532.02
+  },
+  {
+    "text": "es",
+    "start_time": 534.46,
+    "end_time": 535.12
+  },
+  {
+    "text": "justo.",
+    "start_time": 535.12,
+    "end_time": 535.78
+  },
+  {
+    "text": "Media",
+    "start_time": 537.0,
+    "end_time": 537.66
+  },
+  {
+    "text": "naranja",
+    "start_time": 539.72,
+    "end_time": 540.38
+  },
+  {
+    "text": "es",
+    "start_time": 542.84,
+    "end_time": 543.5
+  },
+  {
+    "text": "justo.",
+    "start_time": 543.5,
+    "end_time": 544.16
+  },
+  {
+    "text": "Es",
+    "start_time": 549.6,
+    "end_time": 550.26
+  },
+  {
+    "text": "justo.",
+    "start_time": 550.26,
+    "end_time": 550.26
+  },
+  {
+    "text": "Y",
+    "start_time": 550.26,
+    "end_time": 550.26
+  },
+  {
+    "text": "el",
+    "start_time": 550.26,
+    "end_time": 550.62
+  },
+  {
+    "text": "maestro",
+    "start_time": 550.62,
+    "end_time": 550.88
+  },
+  {
+    "text": "dice,",
+    "start_time": 550.88,
+    "end_time": 551.0
+  },
+  {
+    "text": "pero,",
+    "start_time": 551.14,
+    "end_time": 551.54
+  },
+  {
+    "text": "pero,",
+    "start_time": 551.66,
+    "end_time": 551.9
+  },
+  {
+    "text": "no,",
+    "start_time": 551.9,
+    "end_time": 552.4
+  },
+  {
+    "text": "no,",
+    "start_time": 552.52,
+    "end_time": 552.62
+  },
+  {
+    "text": "no,",
+    "start_time": 552.66,
+    "end_time": 552.78
+  },
+  {
+    "text": "no.",
+    "start_time": 552.78,
+    "end_time": 552.88
+  },
+  {
+    "text": "Dice",
+    "start_time": 553.0,
+    "end_time": 553.46
+  },
+  {
+    "text": "Alonso.",
+    "start_time": 553.46,
+    "end_time": 554.64
+  },
+  {
+    "text": "Es",
+    "start_time": 554.88,
+    "end_time": 555.54
+  },
+  {
+    "text": "lo",
+    "start_time": 555.54,
+    "end_time": 555.7
+  },
+  {
+    "text": "más",
+    "start_time": 555.7,
+    "end_time": 555.86
+  },
+  {
+    "text": "justo.",
+    "start_time": 555.86,
+    "end_time": 556.2
+  },
+  {
+    "text": "El",
+    "start_time": 557.5,
+    "end_time": 558.16
+  },
+  {
+    "text": "maestro",
+    "start_time": 558.16,
+    "end_time": 558.64
+  },
+  {
+    "text": "corta",
+    "start_time": 559.32,
+    "end_time": 559.98
+  },
+  {
+    "text": "la",
+    "start_time": 562.18,
+    "end_time": 562.94
+  },
+  {
+    "text": "naranja",
+    "start_time": 562.94,
+    "end_time": 562.94
+  },
+  {
+    "text": "y",
+    "start_time": 562.94,
+    "end_time": 562.94
+  },
+  {
+    "text": "le",
+    "start_time": 562.94,
+    "end_time": 563.1
+  },
+  {
+    "text": "da",
+    "start_time": 563.1,
+    "end_time": 563.3
+  },
+  {
+    "text": "a",
+    "start_time": 563.3,
+    "end_time": 563.36
+  },
+  {
+    "text": "las",
+    "start_time": 563.36,
+    "end_time": 563.44
+  },
+  {
+    "text": "niñas",
+    "start_time": 563.44,
+    "end_time": 563.8
+  },
+  {
+    "text": "media",
+    "start_time": 563.8,
+    "end_time": 564.94
+  },
+  {
+    "text": "naranja",
+    "start_time": 564.94,
+    "end_time": 565.44
+  },
+  {
+    "text": "y",
+    "start_time": 565.44,
+    "end_time": 565.68
+  },
+  {
+    "text": "media",
+    "start_time": 565.68,
+    "end_time": 566.06
+  },
+  {
+    "text": "naranja.",
+    "start_time": 566.06,
+    "end_time": 566.52
+  },
+  {
+    "text": "Pero",
+    "start_time": 567.22,
+    "end_time": 567.98
+  },
+  {
+    "text": "las",
+    "start_time": 567.98,
+    "end_time": 568.2
+  },
+  {
+    "text": "niñas",
+    "start_time": 568.2,
+    "end_time": 568.56
+  },
+  {
+    "text": "no",
+    "start_time": 569.32,
+    "end_time": 570.08
+  },
+  {
+    "text": "estaban",
+    "start_time": 570.08,
+    "end_time": 570.34
+  },
+  {
+    "text": "felices.",
+    "start_time": 570.34,
+    "end_time": 570.74
+  },
+  {
+    "text": "Las",
+    "start_time": 571.34,
+    "end_time": 572.1
+  },
+  {
+    "text": "niñas",
+    "start_time": 572.1,
+    "end_time": 572.46
+  },
+  {
+    "text": "estaban",
+    "start_time": 573.3,
+    "end_time": 574.06
+  },
+  {
+    "text": "tristes",
+    "start_time": 574.06,
+    "end_time": 574.6
+  },
+  {
+    "text": "y",
+    "start_time": 578.36,
+    "end_time": 579.12
+  },
+  {
+    "text": "lloraban.",
+    "start_time": 579.12,
+    "end_time": 579.88
+  },
+  {
+    "text": "Lloraban.",
+    "start_time": 581.62,
+    "end_time": 582.38
+  },
+  {
+    "text": "Las",
+    "start_time": 585.48,
+    "end_time": 585.86
+  },
+  {
+    "text": "niñas",
+    "start_time": 585.86,
+    "end_time": 586.26
+  },
+  {
+    "text": "lloran",
+    "start_time": 586.26,
+    "end_time": 586.82
+  },
+  {
+    "text": "y",
+    "start_time": 586.82,
+    "end_time": 587.06
+  },
+  {
+    "text": "lloran.",
+    "start_time": 587.06,
+    "end_time": 587.44
+  },
+  {
+    "text": "¿Qué",
+    "start_time": 589.36,
+    "end_time": 590.08
+  },
+  {
+    "text": "pasa?",
+    "start_time": 590.08,
+    "end_time": 590.32
+  },
+  {
+    "text": "¿Qué",
+    "start_time": 592.06,
+    "end_time": 592.78
+  },
+  {
+    "text": "pasa?",
+    "start_time": 592.78,
+    "end_time": 593.1
+  },
+  {
+    "text": "¿Qué",
+    "start_time": 593.18,
+    "end_time": 593.42
+  },
+  {
+    "text": "pasa?",
+    "start_time": 593.42,
+    "end_time": 593.42
+  },
+  {
+    "text": "Pregunta",
+    "start_time": 593.8,
+    "end_time": 594.52
+  },
+  {
+    "text": "Alonso.",
+    "start_time": 594.52,
+    "end_time": 595.28
+  },
+  {
+    "text": "¿Por",
+    "start_time": 595.52,
+    "end_time": 596.24
+  },
+  {
+    "text": "qué",
+    "start_time": 596.24,
+    "end_time": 596.44
+  },
+  {
+    "text": "lloran?",
+    "start_time": 596.44,
+    "end_time": 596.86
+  },
+  {
+    "text": "Cada",
+    "start_time": 598.14,
+    "end_time": 598.86
+  },
+  {
+    "text": "una",
+    "start_time": 598.86,
+    "end_time": 599.2
+  },
+  {
+    "text": "tiene",
+    "start_time": 599.2,
+    "end_time": 599.48
+  },
+  {
+    "text": "su",
+    "start_time": 599.48,
+    "end_time": 599.98
+  },
+  {
+    "text": "Tiene",
+    "start_time": 600.007,
+    "end_time": 600.087
+  },
+  {
+    "text": "media",
+    "start_time": 600.087,
+    "end_time": 600.287
+  },
+  {
+    "text": "naranja.",
+    "start_time": 600.287,
+    "end_time": 600.847
+  },
+  {
+    "text": "Pero",
+    "start_time": 601.777,
+    "end_time": 602.387
+  },
+  {
+    "text": "el",
+    "start_time": 602.387,
+    "end_time": 602.827
+  },
+  {
+    "text": "maestro",
+    "start_time": 602.827,
+    "end_time": 603.367
+  },
+  {
+    "text": "dice,",
+    "start_time": 603.367,
+    "end_time": 604.487
+  },
+  {
+    "text": "no",
+    "start_time": 604.707,
+    "end_time": 606.747
+  },
+  {
+    "text": "Alonso.",
+    "start_time": 606.747,
+    "end_time": 607.367
+  },
+  {
+    "text": "Una",
+    "start_time": 609.027,
+    "end_time": 610.247
+  },
+  {
+    "text": "hija",
+    "start_time": 610.247,
+    "end_time": 610.927
+  },
+  {
+    "text": "quería",
+    "start_time": 610.927,
+    "end_time": 612.507
+  },
+  {
+    "text": "la",
+    "start_time": 612.507,
+    "end_time": 613.407
+  },
+  {
+    "text": "pulpa",
+    "start_time": 613.407,
+    "end_time": 614.027
+  },
+  {
+    "text": "de",
+    "start_time": 614.027,
+    "end_time": 614.847
+  },
+  {
+    "text": "la",
+    "start_time": 614.847,
+    "end_time": 615.027
+  },
+  {
+    "text": "naranja.",
+    "start_time": 615.027,
+    "end_time": 616.007
+  },
+  {
+    "text": "Una",
+    "start_time": 616.927,
+    "end_time": 618.147
+  },
+  {
+    "text": "hija",
+    "start_time": 618.147,
+    "end_time": 618.627
+  },
+  {
+    "text": "quería",
+    "start_time": 618.627,
+    "end_time": 619.227
+  },
+  {
+    "text": "la",
+    "start_time": 619.227,
+    "end_time": 620.427
+  },
+  {
+    "text": "pulpa",
+    "start_time": 620.427,
+    "end_time": 623.667
+  },
+  {
+    "text": "de",
+    "start_time": 623.667,
+    "end_time": 624.967
+  },
+  {
+    "text": "la",
+    "start_time": 624.967,
+    "end_time": 625.067
+  },
+  {
+    "text": "naranja.",
+    "start_time": 625.067,
+    "end_time": 625.547
+  },
+  {
+    "text": "Pero",
+    "start_time": 625.547,
+    "end_time": 627.207
+  },
+  {
+    "text": "la",
+    "start_time": 627.207,
+    "end_time": 627.387
+  },
+  {
+    "text": "otra",
+    "start_time": 627.387,
+    "end_time": 627.687
+  },
+  {
+    "text": "hija",
+    "start_time": 627.687,
+    "end_time": 628.287
+  },
+  {
+    "text": "quería",
+    "start_time": 628.287,
+    "end_time": 629.727
+  },
+  {
+    "text": "la",
+    "start_time": 629.727,
+    "end_time": 631.867
+  },
+  {
+    "text": "piel.",
+    "start_time": 631.867,
+    "end_time": 632.387
+  },
+  {
+    "text": "Quería",
+    "start_time": 633.407,
+    "end_time": 634.407
+  },
+  {
+    "text": "la",
+    "start_time": 634.407,
+    "end_time": 634.547
+  },
+  {
+    "text": "piel",
+    "start_time": 634.547,
+    "end_time": 634.947
+  },
+  {
+    "text": "de",
+    "start_time": 634.947,
+    "end_time": 635.287
+  },
+  {
+    "text": "la",
+    "start_time": 635.287,
+    "end_time": 635.407
+  },
+  {
+    "text": "naranja.",
+    "start_time": 635.407,
+    "end_time": 635.847
+  },
+  {
+    "text": "Cortar",
+    "start_time": 641.367,
+    "end_time": 642.367
+  },
+  {
+    "text": "la",
+    "start_time": 642.367,
+    "end_time": 642.487
+  },
+  {
+    "text": "naranja",
+    "start_time": 642.487,
+    "end_time": 642.987
+  },
+  {
+    "text": "no",
+    "start_time": 642.987,
+    "end_time": 644.367
+  },
+  {
+    "text": "es",
+    "start_time": 644.367,
+    "end_time": 644.647
+  },
+  {
+    "text": "una",
+    "start_time": 644.647,
+    "end_time": 645.467
+  },
+  {
+    "text": "buena",
+    "start_time": 645.467,
+    "end_time": 645.767
+  },
+  {
+    "text": "idea.",
+    "start_time": 645.767,
+    "end_time": 646.287
+  },
+  {
+    "text": "La",
+    "start_time": 648.347,
+    "end_time": 648.847
+  },
+  {
+    "text": "solución,",
+    "start_time": 648.847,
+    "end_time": 649.727
+  },
+  {
+    "text": "la",
+    "start_time": 649.727,
+    "end_time": 651.167
+  },
+  {
+    "text": "solución",
+    "start_time": 651.167,
+    "end_time": 651.947
+  },
+  {
+    "text": "era",
+    "start_time": 651.947,
+    "end_time": 652.447
+  },
+  {
+    "text": "simple.",
+    "start_time": 652.447,
+    "end_time": 654.127
+  },
+  {
+    "text": "La",
+    "start_time": 658.727,
+    "end_time": 659.487
+  },
+  {
+    "text": "solución",
+    "start_time": 659.487,
+    "end_time": 660.107
+  },
+  {
+    "text": "era",
+    "start_time": 660.107,
+    "end_time": 660.367
+  },
+  {
+    "text": "simple.",
+    "start_time": 660.367,
+    "end_time": 660.667
+  },
+  {
+    "text": "Preguntar",
+    "start_time": 661.727,
+    "end_time": 662.487
+  },
+  {
+    "text": "a",
+    "start_time": 662.487,
+    "end_time": 662.727
+  },
+  {
+    "text": "las",
+    "start_time": 662.727,
+    "end_time": 662.907
+  },
+  {
+    "text": "niñas",
+    "start_time": 662.907,
+    "end_time": 663.287
+  },
+  {
+    "text": "lo",
+    "start_time": 663.287,
+    "end_time": 664.567
+  },
+  {
+    "text": "que",
+    "start_time": 664.567,
+    "end_time": 664.747
+  },
+  {
+    "text": "querían.",
+    "start_time": 664.747,
+    "end_time": 665.167
+  },
+  {
+    "text": "Y",
+    "start_time": 666.047,
+    "end_time": 666.807
+  },
+  {
+    "text": "así",
+    "start_time": 666.807,
+    "end_time": 667.087
+  },
+  {
+    "text": "Alonso",
+    "start_time": 667.087,
+    "end_time": 668.507
+  },
+  {
+    "text": "entendió.",
+    "start_time": 668.507,
+    "end_time": 671.427
+  },
+  {
+    "text": "Alonso",
+    "start_time": 673.827,
+    "end_time": 674.587
+  },
+  {
+    "text": "entendió.",
+    "start_time": 674.587,
+    "end_time": 675.347
+  },
+  {
+    "text": "Alonso",
+    "start_time": 684.107,
+    "end_time": 685.387
+  },
+  {
+    "text": "entendió.",
+    "start_time": 685.387,
+    "end_time": 685.887
+  },
+  {
+    "text": "Alonso",
+    "start_time": 685.907,
+    "end_time": 687.127
+  },
+  {
+    "text": "entendió",
+    "start_time": 687.127,
+    "end_time": 687.127
+  },
+  {
+    "text": "que",
+    "start_time": 687.127,
+    "end_time": 687.127
+  },
+  {
+    "text": "muchas",
+    "start_time": 687.127,
+    "end_time": 687.427
+  },
+  {
+    "text": "veces",
+    "start_time": 687.427,
+    "end_time": 687.847
+  },
+  {
+    "text": "la",
+    "start_time": 687.847,
+    "end_time": 689.127
+  },
+  {
+    "text": "mejor",
+    "start_time": 689.127,
+    "end_time": 689.467
+  },
+  {
+    "text": "idea",
+    "start_time": 689.467,
+    "end_time": 690.107
+  },
+  {
+    "text": "es",
+    "start_time": 690.107,
+    "end_time": 697.267
+  },
+  {
+    "text": "preguntar.",
+    "start_time": 697.267,
+    "end_time": 700.047
+  },
+  {
+    "text": "Preguntar.",
+    "start_time": 702.727,
+    "end_time": 704.007
+  },
+  {
+    "text": "Preguntar.",
+    "start_time": 704.007,
+    "end_time": 704.287
+  },
+  {
+    "text": "Y",
+    "start_time": 705.347,
+    "end_time": 705.787
+  },
+  {
+    "text": "de",
+    "start_time": 705.787,
+    "end_time": 705.867
+  },
+  {
+    "text": "esta",
+    "start_time": 705.867,
+    "end_time": 706.007
+  },
+  {
+    "text": "historia",
+    "start_time": 706.007,
+    "end_time": 706.327
+  },
+  {
+    "text": "especial,",
+    "start_time": 706.327,
+    "end_time": 706.687
+  },
+  {
+    "text": "este",
+    "start_time": 706.927,
+    "end_time": 708.007
+  },
+  {
+    "text": "es",
+    "start_time": 708.007,
+    "end_time": 708.987
+  },
+  {
+    "text": "el",
+    "start_time": 708.987,
+    "end_time": 710.247
+  },
+  {
+    "text": "final.",
+    "start_time": 710.247,
+    "end_time": 710.507
+  },
+  {
+    "text": "Preguntar.",
+    "start_time": 710.507,
+    "end_time": 712.727
+  }
+]

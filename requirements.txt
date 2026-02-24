@@ -1,0 +1,14 @@
+mlx-whisper
+torch
+numpy
+scipy
+tqdm
+huggingface-hub
+tiktoken
+# ffmpeg-python is used in audio pipelines
+ffmpeg-python
+# Backend dependencies
+fastapi
+uvicorn
+aiofiles
+python-multipart

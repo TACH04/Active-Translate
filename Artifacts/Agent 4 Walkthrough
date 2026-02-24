@@ -1,0 +1,22 @@
+# Walkthrough: Synchronized Audio-Transcript UI
+
+A clean, responsive web interface that synchronizes audio playback with an auto-scrolling transcript has been successfully implemented using React and Tailwind CSS.
+
+## Features Implemented
+
+1. **Vite + React Setup**: A modern React project setup configured with Tailwind CSS (v3 for stability).
+2. **Audio Player** ([Player.jsx](file:///Users/tannerhochberg/Desktop/Dad's%20Reader/frontend/src/components/Player.jsx)): A clean, fixed bottom bar utilizing the HTML5 `<audio>` element with custom Play/Pause controls and a hidden default UI, capturing the `timeupdate` events to synchronize playback.
+3. **Synchronized Transcript** ([Transcript.jsx](file:///Users/tannerhochberg/Desktop/Dad's%20Reader/frontend/src/components/Transcript.jsx)): A central pane that displays transcript chunks. Active text chunks are highlighted with a distinct background and shadow. Auto-scrolling is implemented using `scrollIntoView` centered over the currently active sentence/chunk.
+4. **Data Integration** ([App.jsx](file:///Users/tannerhochberg/Desktop/Dad's%20Reader/frontend/src/App.jsx)): The app is connected to the local FastAPI backend default endpoints (`http://localhost:8000/transcript` and `/audio`). It gracefully falls back to mock placeholder data if the backend is not running to ensure the UI remains testable.
+5. **Modern Minimalist UI**: Applied dark mode typography, spacing, and transition classes globally.
+
+## Validation
+
+The frontend successfully compiled with zero errors using `npm run build`. 
+
+> [!TIP]
+> To launch the application locally, start your FastAPI backend, navigate to the `frontend` directory in your terminal, and run:
+> ```bash
+> npx vite dev
+> ```
+> This will start the development server, allowing you to interact with the audio player and watch the synchronized text scroll smoothly on screen.
