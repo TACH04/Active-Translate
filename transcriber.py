@@ -12,7 +12,7 @@ def get_wav_duration(filepath):
         duration = frames / float(rate)
         return duration
 
-def transcribe_chunks(staging_dir, output_filepath):
+def transcribe_chunks(staging_dir, output_filepath, progress_callback=None):
     """
     Transcribes all WAV chunks in the staging directory and outputs a combined
     JSON transcript with word-level timestamps.
@@ -26,14 +26,21 @@ def transcribe_chunks(staging_dir, output_filepath):
 
     combined_transcript = []
     current_time_offset = 0.0
+    total_chunks = len(chunk_files)
 
     print("Loading mlx-whisper model...")
     # Using mlx-community/whisper-large-v3-mlx for best transcription fidelity
     model_repo = "mlx-community/whisper-large-v3-mlx"
 
-    for chunk_file in chunk_files:
+    for idx, chunk_file in enumerate(chunk_files):
         print(f"\nProcessing chunk: {os.path.basename(chunk_file)}")
         print(f"Current timeline offset: {current_time_offset:.3f}s")
+        
+        if progress_callback:
+            # Map chunk progress to 15% -> 95% overall progress
+            # 80% of total progress is dedicated to transcription
+            percent_auth = 15 + ((idx / total_chunks) * 80)
+            progress_callback(percent_auth, f"Transcribing chunk {idx + 1}/{total_chunks}...")
         
         # Transcribe the chunk with mlx_whisper
         # Using word_timestamps=True and language="es" as required

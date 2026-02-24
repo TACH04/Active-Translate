@@ -47,6 +47,15 @@ async def list_projects():
                 })
     return projects
 
+from progress_store import update_progress, get_progress
+
+@router.get("/progress")
+async def check_progress(project_id: str):
+    """
+    Get the processing progress for a given project_id.
+    """
+    return get_progress(project_id)
+
 @router.post("/upload")
 async def upload_audio(background_tasks: BackgroundTasks, file: UploadFile = File(...)):
     """
@@ -59,17 +68,35 @@ async def upload_audio(background_tasks: BackgroundTasks, file: UploadFile = Fil
     with open(temp_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
+    # Determine project ID earlier to start tracking immediately
+    base_name = os.path.splitext(file.filename)[0]
+
+    # Initialize progress store
+    update_progress(base_name, "processing", 0, "Uploaded. Waiting in queue...")
+
     # Start processing in background
     def run_processing():
         try:
-            process_audio_file(temp_path, STAGING_DIR)
+            # We will add a progress_callback parameter to process_audio_file soon
+            from progress_store import update_progress
+            def callback(progress: float, message: str):
+                update_progress(base_name, "processing", progress, message)
+            
+            process_audio_file(temp_path, STAGING_DIR, progress_callback=callback)
+            update_progress(base_name, "done", 100, "Processing complete")
+        except Exception as e:
+            update_progress(base_name, "error", 0, str(e))
         finally:
             if os.path.exists(temp_path):
                 os.remove(temp_path)
 
     background_tasks.add_task(run_processing)
     
-    return {"message": "Upload successful. Processing started.", "filename": file.filename}
+    return {
+        "message": "Upload successful. Processing started.",
+        "filename": file.filename,
+        "project_id": base_name
+    }
 
 @router.get("/transcript")
 async def serve_latest_transcript(project_id: str | None = None):

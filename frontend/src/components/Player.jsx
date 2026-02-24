@@ -29,7 +29,7 @@ const Player = ({ audioUrl, currentTime, onTimeUpdate, isPlaying, setIsPlaying }
     }, [currentTime, isPlaying]);
 
     return (
-        <div className="fixed bottom-0 left-0 w-full bg-slate-900/80 backdrop-blur-md border-t border-slate-700/50 p-4 z-50 transition-all duration-300 shadow-2xl">
+        <div className="fixed bottom-0 left-0 w-full backdrop-blur-md border-t p-4 z-50 transition-colors shadow-2xl" style={{ backgroundColor: 'var(--player-bg)', borderColor: 'var(--border-color)' }}>
             <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
 
                 {/* Play/Pause Button */}

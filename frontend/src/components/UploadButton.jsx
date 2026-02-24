@@ -1,10 +1,52 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import UploadProgress from './UploadProgress';
 
 const UploadButton = ({ onUploadSuccess }) => {
     const [isUploading, setIsUploading] = useState(false);
     const [progress, setProgress] = useState(0);
+    const [statusText, setStatusText] = useState("Uploading...");
+    const [activeProjectId, setActiveProjectId] = useState(null);
     const fileInputRef = useRef(null);
+
+    // Poll the backend for processing progress
+    useEffect(() => {
+        if (!activeProjectId) return;
+
+        const interval = setInterval(async () => {
+            try {
+                const response = await fetch(`http://localhost:8000/api/progress?project_id=${activeProjectId}`);
+                if (response.ok) {
+                    const data = await response.json();
+
+                    if (data.status === "processing") {
+                        setProgress(data.progress);
+                        setStatusText(data.message || "Processing...");
+                    } else if (data.status === "done") {
+                        clearInterval(interval);
+                        setProgress(100);
+                        setStatusText("Done!");
+
+                        setTimeout(() => {
+                            setIsUploading(false);
+                            setActiveProjectId(null);
+                            if (onUploadSuccess) onUploadSuccess();
+                            if (fileInputRef.current) fileInputRef.current.value = '';
+                        }, 600);
+                    } else if (data.status === "error") {
+                        clearInterval(interval);
+                        setIsUploading(false);
+                        setActiveProjectId(null);
+                        alert(`Processing failed: ${data.message}`);
+                        if (fileInputRef.current) fileInputRef.current.value = '';
+                    }
+                }
+            } catch (error) {
+                console.error("Error polling progress", error);
+            }
+        }, 2000); // poll every 2 seconds
+
+        return () => clearInterval(interval);
+    }, [activeProjectId, onUploadSuccess]);
 
     const handleFileChange = (event) => {
         const file = event.target.files[0];
@@ -12,6 +54,9 @@ const UploadButton = ({ onUploadSuccess }) => {
 
         setIsUploading(true);
         setProgress(0);
+        setStatusText("Uploading...");
+        setActiveProjectId(null);
+
         const formData = new FormData();
         formData.append('file', file);
 
@@ -26,20 +71,29 @@ const UploadButton = ({ onUploadSuccess }) => {
 
         xhr.onload = () => {
             if (xhr.status >= 200 && xhr.status < 300) {
-                alert("Upload successful! Processing has started. It will appear in your library soon.");
-                if (onUploadSuccess) onUploadSuccess();
+                try {
+                    const data = JSON.parse(xhr.responseText);
+                    // Upload is done, now wait for processing
+                    setProgress(0); // Reset progress for processing phase
+                    setStatusText("Uploaded. Waiting in queue...");
+                    setActiveProjectId(data.project_id);
+                } catch {
+                    // Fallback if parsing fails
+                    setIsUploading(false);
+                    alert("Upload successful but failed to track processing schedule.");
+                }
             } else {
                 let errorMessage = 'Upload failed';
                 try {
                     const errorResponse = JSON.parse(xhr.responseText);
                     errorMessage = `Upload failed: ${errorResponse.detail || xhr.responseText}`;
-                } catch (e) {
+                } catch {
                     errorMessage = `Upload failed: ${xhr.statusText || 'Unknown error'}`;
                 }
                 alert(errorMessage);
+                setIsUploading(false);
+                if (fileInputRef.current) fileInputRef.current.value = '';
             }
-            setIsUploading(false);
-            if (fileInputRef.current) fileInputRef.current.value = '';
         };
 
         xhr.onerror = () => {
@@ -67,12 +121,12 @@ const UploadButton = ({ onUploadSuccess }) => {
             <label
                 htmlFor={isUploading ? undefined : "audio-upload"}
                 className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-semibold transition-all ${isUploading
-                        ? 'bg-slate-800 border border-slate-700 shadow-inner'
-                        : 'bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg hover:shadow-indigo-500/20 cursor-pointer'
+                    ? 'bg-slate-800 border border-slate-700 shadow-inner'
+                    : 'bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg hover:shadow-indigo-500/20 cursor-pointer'
                     }`}
             >
                 {isUploading ? (
-                    <UploadProgress progress={progress} />
+                    <UploadProgress progress={progress} statusText={statusText} />
                 ) : (
                     <>
                         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

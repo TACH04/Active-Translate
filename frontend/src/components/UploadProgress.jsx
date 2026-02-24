@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UploadProgress = ({ progress }) => {
+const UploadProgress = ({ progress, statusText = "Uploading..." }) => {
     const radius = 16;
     const circumference = 2 * Math.PI * radius;
     const strokeDashoffset = circumference - (progress / 100) * circumference;
@@ -35,7 +35,7 @@ const UploadProgress = ({ progress }) => {
                 </svg>
             </div>
             <div className="flex flex-col items-start leading-tight">
-                <span className="text-sm font-semibold text-slate-200">Uploading...</span>
+                <span className="text-sm font-semibold text-slate-200">{statusText}</span>
                 <span className="text-xs text-indigo-300 font-medium">{Math.round(progress)}%</span>
             </div>
         </div>
