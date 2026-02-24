@@ -6,7 +6,11 @@ const Transcript = ({ transcript, currentTime, onWordClick }) => {
 
     // Sync logic: Find the index of the currently active chunk
     const activeIndex = transcript.findIndex(
-        (chunk) => currentTime >= chunk.start && currentTime <= chunk.end
+        (chunk) => {
+            const start = chunk.start_time !== undefined ? chunk.start_time : chunk.start;
+            const end = chunk.end_time !== undefined ? chunk.end_time : chunk.end;
+            return currentTime >= start && currentTime <= end;
+        }
     );
 
     // Auto-scroll mechanism
@@ -29,13 +33,15 @@ const Transcript = ({ transcript, currentTime, onWordClick }) => {
                 <p className="flex flex-wrap gap-x-2 gap-y-3">
                     {transcript.map((chunk, index) => {
                         const isActive = index === activeIndex;
-                        const isPast = currentTime > chunk.end;
+                        const start = chunk.start_time !== undefined ? chunk.start_time : chunk.start;
+                        const end = chunk.end_time !== undefined ? chunk.end_time : chunk.end;
+                        const isPast = currentTime > end;
 
                         return (
                             <span
                                 key={index}
                                 ref={isActive ? activeWordRef : null}
-                                onClick={() => onWordClick(chunk.start)}
+                                onClick={() => onWordClick(start)}
                                 className={`
                   transition-all duration-300 cursor-pointer rounded-md px-2 py-1
                   ${isActive ? 'bg-indigo-500/20 text-indigo-300 scale-105 shadow-sm transform' : ''}

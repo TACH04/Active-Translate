@@ -54,8 +54,8 @@ def transcribe_chunks(staging_dir, output_filepath):
                         
                         combined_transcript.append({
                             "text": word_info['word'].strip(),
-                            "start_time": round(adjusted_start, 3),
-                            "end_time": round(adjusted_end, 3)
+                            "start": round(adjusted_start, 3),
+                            "end": round(adjusted_end, 3)
                         })
 
         # Update the running time offset using the exact duration of the WAV file
