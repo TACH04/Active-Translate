@@ -43,7 +43,8 @@ def process_audio_file(input_file: str, staging_dir: str = "staging", progress_c
     
     # 3. Save a copy of the original audio file for easy playback
     logger.info("Starting Phase 3: Preparing Playback Media")
-    report_progress(95, "Finalizing playback media...")
+    # Tell user transcript is ready by hitting 84%
+    report_progress(84, "Finalizing playback media...")
     file_ext = os.path.splitext(input_file)[1]
     project_audio_path = os.path.join(project_staging_dir, f"original_audio{file_ext}")
     
@@ -51,10 +52,20 @@ def process_audio_file(input_file: str, staging_dir: str = "staging", progress_c
         shutil.copy2(os.path.abspath(input_file), os.path.abspath(project_audio_path))
         logger.info(f"Copied original media to {project_audio_path}")
 
+    # 4. Translate
+    logger.info("Starting Phase 4: Translation")
+    report_progress(85, "Translating transcript...")
+    from translation_service import translate_transcript_sync
+    # We explicitly let errors during translation not crash the whole process
+    try:
+        translate_transcript_sync(output_transcript, progress_callback=report_progress)
+    except Exception as e:
+        logger.error(f"Translation failed: {e}")
+
     report_progress(100, "Processing complete")
     return {
         "project_id": base_name,
         "staging_dir": project_staging_dir,
-        "transcript_path": output_transcript,
+        "transcript_path": output_transcript, 
         "audio_path": project_audio_path
     }

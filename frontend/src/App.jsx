@@ -15,6 +15,7 @@ function App() {
   const [error, setError] = useState(null);
   const [currentTime, setCurrentTime] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [seekSignal, setSeekSignal] = useState(0);
 
   // Settings state
   const [settings, setSettings] = useState(() => {
@@ -96,6 +97,7 @@ function App() {
 
   const handleSeek = (time) => {
     setCurrentTime(time);
+    setSeekSignal(prev => prev + 1);
   };
 
   const audioUrl = selectedProjectId
@@ -160,6 +162,8 @@ function App() {
                 currentTime={currentTime}
                 onWordClick={handleSeek}
                 settings={settings}
+                isPlaying={isPlaying}
+                setIsPlaying={setIsPlaying}
               />
             </div>
           )}
@@ -172,6 +176,7 @@ function App() {
         onTimeUpdate={handleTimeUpdate}
         isPlaying={isPlaying}
         setIsPlaying={setIsPlaying}
+        seekSignal={seekSignal}
       />
     </div>
   );

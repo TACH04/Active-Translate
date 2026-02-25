@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-const Player = ({ audioUrl, currentTime, onTimeUpdate, isPlaying, setIsPlaying }) => {
+const Player = ({ audioUrl, currentTime, onTimeUpdate, isPlaying, setIsPlaying, seekSignal }) => {
     const audioRef = useRef(null);
 
     const handleTimeUpdate = () => {
@@ -21,12 +21,20 @@ const Player = ({ audioUrl, currentTime, onTimeUpdate, isPlaying, setIsPlaying }
     };
 
     useEffect(() => {
+        if (audioRef.current && seekSignal > 0) {
+            audioRef.current.currentTime = currentTime;
+        }
+    }, [seekSignal]);
+
+    useEffect(() => {
         if (audioRef.current) {
-            if (Math.abs(audioRef.current.currentTime - currentTime) > 0.5 && !isPlaying) {
-                audioRef.current.currentTime = currentTime;
+            if (isPlaying && audioRef.current.paused) {
+                audioRef.current.play().catch(e => console.error("Error playing audio:", e));
+            } else if (!isPlaying && !audioRef.current.paused) {
+                audioRef.current.pause();
             }
         }
-    }, [currentTime, isPlaying]);
+    }, [isPlaying]);
 
     return (
         <div className="fixed bottom-0 left-0 w-full backdrop-blur-md border-t p-4 z-50 transition-colors shadow-2xl" style={{ backgroundColor: 'var(--player-bg)', borderColor: 'var(--border-color)' }}>

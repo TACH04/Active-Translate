@@ -1,0 +1,8 @@
+{
+    "transcription": {
+        "backend": "mlx"
+    },
+    "translation": {
+        "model": "Helsinki-NLP/opus-mt-es-en"
+    }
+}

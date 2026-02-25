@@ -34,16 +34,30 @@ async def list_projects():
     if not os.path.exists(STAGING_DIR):
         return []
     
+    from progress_store import get_progress
+    
     projects = []
     for d in os.listdir(STAGING_DIR):
         dir_path = os.path.join(STAGING_DIR, d)
         if os.path.isdir(dir_path):
             # Check if it has a transcript
             if os.path.exists(os.path.join(dir_path, "transcript.json")):
+                # Check current progress status
+                prog = get_progress(d)
+                
+                # If progress is complete, or not found (app restarted), it's ready.
+                # If it's processing and >84%, it's transcribing/translating but readable.
+                status = "ready"
+                if prog["status"] == "processing" and prog["progress"] >= 85:
+                    status = "translating"
+                elif prog["status"] == "processing" and prog["progress"] < 85:
+                    # Still early, shouldn't really be here yet but handle gracefully
+                    continue
+                    
                 projects.append({
                     "id": d,
                     "name": d.replace("_", " "),
-                    "status": "ready"
+                    "status": status
                 })
     return projects
 
@@ -140,3 +154,21 @@ async def serve_media(request: Request, project_id: str | None = None):
     file_path = audio_files[0]
     range_header = request.headers.get("range")
     return await stream_media_file(file_path, range_header)
+
+from pydantic import BaseModel
+
+class TranslateRequest(BaseModel):
+    text: str
+
+@router.post("/translate")
+async def translate_text_endpoint(request: TranslateRequest):
+    """
+    On-demand translation endpoint.
+    """
+    try:
+        from translation_service import translate_text_async
+        translation = await translate_text_async(request.text)
+        return {"original": request.text, "translation": translation}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+

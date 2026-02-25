@@ -7,6 +7,7 @@ const UploadButton = ({ onUploadSuccess }) => {
     const [statusText, setStatusText] = useState("Uploading...");
     const [activeProjectId, setActiveProjectId] = useState(null);
     const fileInputRef = useRef(null);
+    const isReadyTriggeredRef = useRef(false);
 
     // Poll the backend for processing progress
     useEffect(() => {
@@ -21,6 +22,13 @@ const UploadButton = ({ onUploadSuccess }) => {
                     if (data.status === "processing") {
                         setProgress(data.progress);
                         setStatusText(data.message || "Processing...");
+
+                        // Phase 4 Translation starts at 85%. At this point it's ready to read!
+                        if (data.progress >= 85 && !isReadyTriggeredRef.current) {
+                            isReadyTriggeredRef.current = true;
+                            if (onUploadSuccess) onUploadSuccess();
+                            // Don't set isUploading to false yet, keep showing progress circle
+                        }
                     } else if (data.status === "done") {
                         clearInterval(interval);
                         setProgress(100);
@@ -29,7 +37,8 @@ const UploadButton = ({ onUploadSuccess }) => {
                         setTimeout(() => {
                             setIsUploading(false);
                             setActiveProjectId(null);
-                            if (onUploadSuccess) onUploadSuccess();
+                            // Avoid double-calling if it was already triggered
+                            if (!isReadyTriggeredRef.current && onUploadSuccess) onUploadSuccess();
                             if (fileInputRef.current) fileInputRef.current.value = '';
                         }, 600);
                     } else if (data.status === "error") {
@@ -56,6 +65,7 @@ const UploadButton = ({ onUploadSuccess }) => {
         setProgress(0);
         setStatusText("Uploading...");
         setActiveProjectId(null);
+        isReadyTriggeredRef.current = false;
 
         const formData = new FormData();
         formData.append('file', file);
