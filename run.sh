@@ -6,7 +6,7 @@ BACKEND_DIR="$PROJECT_ROOT/backend"
 FRONTEND_DIR="$PROJECT_ROOT/frontend"
 VENV_DIR="$PROJECT_ROOT/.venv"
 
-echo "🚀 Starting Dad's Reader..."
+echo "🚀 Starting Active Translate..."
 
 # 1. Update from Git (if in a git repo)
 if [ -d "$PROJECT_ROOT/.git" ]; then

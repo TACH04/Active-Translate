@@ -8,7 +8,7 @@ from backend.processing_service import process_audio_file
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def main():
-    parser = argparse.ArgumentParser(description="End-to-End processing for Dad's Reader")
+    parser = argparse.ArgumentParser(description="End-to-End processing for Active Translate")
     parser.add_argument("input_file", help="Path to the input audio file (.mp3, .m4b)")
     parser.add_argument("--staging-dir", default="staging", help="Base staging directory")
     args = parser.parse_args()

@@ -2,7 +2,7 @@ import os
 import json
 import glob
 
-staging_dir = "/Users/tannerhochberg/Desktop/Dad's Reader/staging"
+staging_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "staging")
 files = glob.glob(os.path.join(staging_dir, "**", "transcript.json"), recursive=True)
 
 for f in files:

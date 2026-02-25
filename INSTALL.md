@@ -1,11 +1,11 @@
-# Welcome to Dad's Reader! 📖
+# Welcome to Active Translate! 📖
 
 This app lets you listen to audiobooks and follow along with the transcript.
 
 ## How to Start the App
 
 1.  Open the folder called `Dad's Reader` on your computer.
-2.  Find the file named **Start Reader.command**.
+2.  Find the file named **Start Active Translate.command**.
 3.  Double-click it!
 
 A window will open and do some setup work (updates and checking files). Once it says **"✅ App is running!"**, you can open your web browser (like Chrome or Safari) and go to:
@@ -19,4 +19,4 @@ A window will open and do some setup work (updates and checking files). Once it 
 
 ## Updates
 
-Every time you double-click **Start Reader.command**, it will automatically check for any updates I've made and install them for you. You don't need to do anything else!
+Every time you double-click **Start Active Translate.command**, it will automatically check for any updates I've made and install them for you. You don't need to do anything else!

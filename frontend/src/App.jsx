@@ -77,7 +77,7 @@ function App() {
         console.warn("Backend not accessible or error fetching transcript.", err);
         if (projects.length === 0) {
           setTranscriptData([
-            { text: "Welcome to Dad's Reader.", start: 0.0, end: 3.5 },
+            { text: "Welcome to Active Translate.", start: 0.0, end: 3.5 },
             { text: "Upload an audio file in the top right to get started.", start: 3.5, end: 7.2 },
           ]);
         } else {
@@ -120,7 +120,7 @@ function App() {
             </svg>
           </button>
           <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400">
-            Dad's Reader
+            Active Translate
           </h1>
         </div>
         <div className="flex items-center gap-4">

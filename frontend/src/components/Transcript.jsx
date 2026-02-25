@@ -30,18 +30,22 @@ const Transcript = ({ transcript, currentTime, onWordClick, settings, isPlaying,
 
     // Sync logic: Find the index of the currently active word
     const activeIndex = useMemo(() => {
+        // Add a 50ms forward buffer. If we jump exactly to a word's start time,
+        // the audio player might round to 1ms before it. This precise buffer fixes jumping getting stuck.
+        const searchTime = currentTime + 0.05;
+
         const idx = flatWords.findIndex(
             (chunk) => {
                 const start = chunk.start_time !== undefined ? chunk.start_time : chunk.start;
                 const end = chunk.end_time !== undefined ? chunk.end_time : chunk.end;
-                return currentTime >= start && currentTime <= end;
+                return searchTime >= start && searchTime <= end;
             }
         );
         // If not found, try to find the closest word that we just passed
         if (idx === -1 && flatWords.length > 0) {
             for (let i = flatWords.length - 1; i >= 0; i--) {
                 const end = flatWords[i].end_time !== undefined ? flatWords[i].end_time : flatWords[i].end;
-                if (currentTime >= end) return i;
+                if (searchTime >= end) return i;
             }
         }
         return idx;
@@ -59,87 +63,138 @@ const Transcript = ({ transcript, currentTime, onWordClick, settings, isPlaying,
         }
     }, [activeIndex]);
 
-    // Key Listener
+    // Refs for stable access inside the key listener without re-attaching
+    const currentTimeRef = useRef(currentTime);
+    const activeIndexRef = useRef(activeIndex);
+    const lastJumpTimeRef = useRef(0);
+
+    useEffect(() => {
+        currentTimeRef.current = currentTime;
+    }, [currentTime]);
+
+    useEffect(() => {
+        activeIndexRef.current = activeIndex;
+    }, [activeIndex]);
+
+    // Keyboard Listener
     useEffect(() => {
         const handleKeyDown = async (e) => {
             // Ignore keypresses inside inputs
             if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
 
+            const now = Date.now();
+            const curIdx = activeIndexRef.current;
+            const curTime = currentTimeRef.current;
+
             // Space to toggle play/pause
             if (e.code === 'Space') {
                 e.preventDefault();
-                if (setIsPlaying) setIsPlaying(prev => !prev);
+                setIsPlaying(prev => !prev);
                 return;
             }
 
-            // Arrow keys for navigation
+            // Word Navigation: Left/Right Arrows
             if (e.key === 'ArrowRight') {
                 e.preventDefault();
-                if (e.shiftKey) {
-                    const currentSegmentIndex = activeWord ? activeWord.segmentIndex : 0;
-                    const nextSegmentWord = flatWords.find(w => w.segmentIndex > currentSegmentIndex);
-                    if (nextSegmentWord) {
-                        onWordClick(nextSegmentWord.start_time !== undefined ? nextSegmentWord.start_time : nextSegmentWord.start);
-                    }
+                if (now - lastJumpTimeRef.current < 150) return;
+                lastJumpTimeRef.current = now;
+
+                setIsPlaying(false);
+
+                // Next Word: If we have an active index, go to next.
+                let targetWord = null;
+                if (curIdx !== -1 && curIdx < flatWords.length - 1) {
+                    targetWord = flatWords[curIdx + 1];
                 } else {
-                    let nextWordIndex = activeIndex !== -1 ? activeIndex + 1 : 0;
-                    if (nextWordIndex < flatWords.length) {
-                        const nextWord = flatWords[nextWordIndex];
-                        onWordClick(nextWord.start_time !== undefined ? nextWord.start_time : nextWord.start);
-                    }
+                    targetWord = flatWords.find(w => (w.start_time ?? w.start) > curTime + 0.01);
                 }
+                if (targetWord) onWordClick(targetWord.start_time ?? targetWord.start);
                 return;
             }
 
             if (e.key === 'ArrowLeft') {
                 e.preventDefault();
-                if (e.shiftKey) {
-                    const currentSegmentIndex = activeWord ? activeWord.segmentIndex : 0;
-                    const prevSegmentWords = flatWords.filter(w => w.segmentIndex < currentSegmentIndex);
-                    if (prevSegmentWords.length > 0) {
-                        const prevSegmentIndex = prevSegmentWords[prevSegmentWords.length - 1].segmentIndex;
-                        const prevSegmentFirstWord = flatWords.find(w => w.segmentIndex === prevSegmentIndex);
-                        if (prevSegmentFirstWord) {
-                            onWordClick(prevSegmentFirstWord.start_time !== undefined ? prevSegmentFirstWord.start_time : prevSegmentFirstWord.start);
-                        }
-                    } else {
-                        const currentSegmentFirstWord = flatWords.find(w => w.segmentIndex === currentSegmentIndex);
-                        if (currentSegmentFirstWord) {
-                            onWordClick(currentSegmentFirstWord.start_time !== undefined ? currentSegmentFirstWord.start_time : currentSegmentFirstWord.start);
-                        }
+                if (now - lastJumpTimeRef.current < 150) return;
+                lastJumpTimeRef.current = now;
+
+                setIsPlaying(false);
+
+                // Previous Word: If we are deep into the current word, go to its start.
+                let targetTime = 0;
+                if (curIdx !== -1) {
+                    const curWord = flatWords[curIdx];
+                    const wordStart = curWord.start_time ?? curWord.start;
+                    if (curTime > wordStart + 0.5) {
+                        targetTime = wordStart;
+                    } else if (curIdx > 0) {
+                        targetTime = flatWords[curIdx - 1].start_time ?? flatWords[curIdx - 1].start;
                     }
                 } else {
-                    let prevWordIndex = activeIndex !== -1 ? activeIndex - 1 : 0;
-                    if (prevWordIndex >= 0 && flatWords.length > 0) {
-                        const prevWord = flatWords[prevWordIndex];
-                        onWordClick(prevWord.start_time !== undefined ? prevWord.start_time : prevWord.start);
-                    } else if (prevWordIndex < 0 && activeIndex === -1 && flatWords.length > 0) {
-                        const prevWord = flatWords[0];
-                        onWordClick(prevWord.start_time !== undefined ? prevWord.start_time : prevWord.start);
+                    const prevWord = [...flatWords].reverse().find(w => (w.start_time ?? w.start) < curTime - 0.1);
+                    targetTime = prevWord ? (prevWord.start_time ?? prevWord.start) : 0;
+                }
+                onWordClick(targetTime);
+                return;
+            }
+
+            // Sentence Navigation: Up/Down Arrows
+            if (e.key === 'ArrowDown') {
+                e.preventDefault();
+                if (now - lastJumpTimeRef.current < 250) return;
+                lastJumpTimeRef.current = now;
+
+                setIsPlaying(false);
+
+                const activeWord = curIdx !== -1 ? flatWords[curIdx] : null;
+                const curSegmentIdx = activeWord ? activeWord.segmentIndex : -1;
+                const nextWord = flatWords.find(w => w.segmentIndex > curSegmentIdx);
+                if (nextWord) onWordClick(nextWord.start_time ?? nextWord.start);
+                return;
+            }
+
+            if (e.key === 'ArrowUp') {
+                e.preventDefault();
+                if (now - lastJumpTimeRef.current < 250) return;
+                lastJumpTimeRef.current = now;
+
+                setIsPlaying(false);
+
+                const activeWord = curIdx !== -1 ? flatWords[curIdx] : null;
+                const curSegmentIdx = activeWord ? activeWord.segmentIndex : 0;
+
+                const curSegmentFirstWord = flatWords.find(w => w.segmentIndex === curSegmentIdx);
+                const curSegmentStart = curSegmentFirstWord ? (curSegmentFirstWord.start_time ?? curSegmentFirstWord.start) : 0;
+
+                if (currentTimeRef.current > curSegmentStart + 1.0) {
+                    onWordClick(curSegmentStart);
+                } else {
+                    const prevWord = [...flatWords].reverse().find(w => w.segmentIndex < curSegmentIdx);
+                    if (prevWord) {
+                        const firstOfPrev = flatWords.find(w => w.segmentIndex === prevWord.segmentIndex);
+                        onWordClick(firstOfPrev.start_time ?? firstOfPrev.start);
+                    } else {
+                        onWordClick(0);
                     }
                 }
                 return;
             }
 
-            if (e.key === 't' || e.key === 'T' || e.key === 'w' || e.key === 'W') {
+            // Translation hotkeys
+            if (e.key.toLowerCase() === 't' || e.key.toLowerCase() === 'w') {
+                const activeWord = curIdx !== -1 ? flatWords[curIdx] : null;
                 if (!activeWord) return;
 
-                const isWordMode = e.key === 'w' || e.key === 'W';
+                const isWordMode = e.key.toLowerCase() === 'w';
                 const textToTranslate = isWordMode ? (activeWord.word || activeWord.text) : activeWord.segmentText;
 
-                // Stop audio
-                if (setIsPlaying) setIsPlaying(false);
-
-                // Show modal
+                setIsPlaying(false);
                 setShowTranslation(true);
 
-                // Check if segment is fully translated on the backend
                 if (!isWordMode && activeWord.translation) {
                     setTranslationText(activeWord.translation);
                     return;
                 }
 
-                // Otherwise fallback to on-demand translation
                 setIsTranslating(true);
                 setTranslationText("");
                 try {
@@ -163,7 +218,7 @@ const Transcript = ({ transcript, currentTime, onWordClick, settings, isPlaying,
 
         window.addEventListener('keydown', handleKeyDown);
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [activeWord, activeIndex, flatWords, onWordClick, setIsPlaying]);
+    }, [flatWords, onWordClick, setIsPlaying]);
 
     return (
         <div className="relative w-full h-full flex overflow-hidden">
