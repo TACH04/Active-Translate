@@ -543,12 +543,12 @@
   },
   {
     "text": "Una casa muy grande.",
-    "start": 90.38,
+    "start": 90.4,
     "end": 92.92,
     "words": [
       {
         "text": "Una",
-        "start": 90.38,
+        "start": 90.4,
         "end": 91.34
       },
       {
@@ -571,12 +571,12 @@
   },
   {
     "text": "Y la casa de Alonso tiene un jardín muy hermoso.",
-    "start": 94.16,
+    "start": 94.18,
     "end": 101.9,
     "words": [
       {
         "text": "Y",
-        "start": 94.16,
+        "start": 94.18,
         "end": 95.12
       },
       {
@@ -628,51 +628,33 @@
     "translation": "And Alonso's house has a very beautiful garden."
   },
   {
-    "text": "Muy hermoso.",
-    "start": 102.5,
-    "end": 109.1,
-    "words": [
-      {
-        "text": "Muy",
-        "start": 102.5,
-        "end": 103.46
-      },
-      {
-        "text": "hermoso.",
-        "start": 103.46,
-        "end": 109.1
-      }
-    ],
-    "translation": "Very beautiful."
-  },
-  {
     "text": "Tiene un jardín muy, muy hermoso.",
-    "start": 109.68,
+    "start": 109.7,
     "end": 113.88,
     "words": [
       {
         "text": "Tiene",
-        "start": 109.68,
+        "start": 109.7,
         "end": 110.64
       },
       {
         "text": "un",
         "start": 110.64,
-        "end": 110.78
+        "end": 110.76
       },
       {
         "text": "jardín",
-        "start": 110.78,
+        "start": 110.76,
         "end": 111.26
       },
       {
         "text": "muy,",
         "start": 111.26,
-        "end": 112.96
+        "end": 112.94
       },
       {
         "text": "muy",
-        "start": 113.06,
+        "start": 113.08,
         "end": 113.38
       },
       {
@@ -685,497 +667,224 @@
   },
   {
     "text": "Un jardín con muchas, muchas flores.",
-    "start": 114.86,
-    "end": 118.26,
+    "start": 113.9,
+    "end": 118.22,
     "words": [
       {
         "text": "Un",
-        "start": 114.86,
-        "end": 115.6
+        "start": 113.9,
+        "end": 115.54
       },
       {
         "text": "jardín",
-        "start": 115.6,
+        "start": 115.54,
         "end": 116.0
       },
       {
         "text": "con",
         "start": 116.0,
-        "end": 116.54
+        "end": 116.52
       },
       {
         "text": "muchas,",
-        "start": 116.54,
-        "end": 117.06
+        "start": 116.52,
+        "end": 117.04
       },
       {
         "text": "muchas",
-        "start": 117.14,
-        "end": 117.72
+        "start": 117.1,
+        "end": 117.64
       },
       {
         "text": "flores.",
-        "start": 117.72,
-        "end": 118.26
+        "start": 117.64,
+        "end": 118.22
       }
     ],
     "translation": "A garden with many, many flowers."
   },
   {
     "text": "Un jardín con muchas, muchas flores.",
-    "start": 124.76,
-    "end": 126.24,
+    "start": 118.86,
+    "end": 126.26,
     "words": [
       {
         "text": "Un",
-        "start": 124.76,
-        "end": 125.5
+        "start": 118.86,
+        "end": 119.9
       },
       {
         "text": "jardín",
-        "start": 125.5,
-        "end": 126.24
+        "start": 119.9,
+        "end": 126.26
       },
       {
         "text": "con",
-        "start": 126.24,
-        "end": 126.24
+        "start": 126.26,
+        "end": 126.26
       },
       {
         "text": "muchas,",
-        "start": 126.24,
-        "end": 126.24
+        "start": 126.26,
+        "end": 126.26
       },
       {
         "text": "muchas",
-        "start": 126.24,
-        "end": 126.24
+        "start": 126.26,
+        "end": 126.26
       },
       {
         "text": "flores.",
-        "start": 126.24,
-        "end": 126.24
+        "start": 126.26,
+        "end": 126.26
       }
     ],
     "translation": "A garden with many, many flowers."
   },
   {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 126.76,
-    "end": 127.5,
+    "text": "Y en el jardín de Alonso hay un árbol.",
+    "start": 126.32,
+    "end": 132.28,
     "words": [
       {
-        "text": "Un",
-        "start": 126.76,
-        "end": 127.5
+        "text": "Y",
+        "start": 126.32,
+        "end": 127.36
+      },
+      {
+        "text": "en",
+        "start": 127.36,
+        "end": 128.68
+      },
+      {
+        "text": "el",
+        "start": 128.68,
+        "end": 128.86
       },
       {
         "text": "jardín",
-        "start": 127.5,
-        "end": 127.5
+        "start": 128.86,
+        "end": 129.3
       },
       {
-        "text": "con",
-        "start": 127.5,
-        "end": 127.5
-      },
-      {
-        "text": "muchas,",
-        "start": 127.5,
-        "end": 127.5
-      },
-      {
-        "text": "muchas",
-        "start": 127.5,
-        "end": 127.5
-      },
-      {
-        "text": "flores.",
-        "start": 127.5,
-        "end": 127.5
-      }
-    ],
-    "translation": "A garden with many, many flowers."
-  },
-  {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 127.5,
-    "end": 127.52,
-    "words": [
-      {
-        "text": "Un",
-        "start": 127.5,
-        "end": 127.5
-      },
-      {
-        "text": "jardín",
-        "start": 127.5,
-        "end": 127.52
-      },
-      {
-        "text": "con",
-        "start": 127.52,
-        "end": 127.52
-      },
-      {
-        "text": "muchas,",
-        "start": 127.52,
-        "end": 127.52
-      },
-      {
-        "text": "muchas",
-        "start": 127.52,
-        "end": 127.52
-      },
-      {
-        "text": "flores.",
-        "start": 127.52,
-        "end": 127.52
-      }
-    ],
-    "translation": "A garden with many, many flowers."
-  },
-  {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 127.52,
-    "end": 127.68,
-    "words": [
-      {
-        "text": "Un",
-        "start": 127.52,
-        "end": 127.52
-      },
-      {
-        "text": "jardín",
-        "start": 127.52,
-        "end": 127.68
-      },
-      {
-        "text": "con",
-        "start": 127.68,
-        "end": 127.68
-      },
-      {
-        "text": "muchas,",
-        "start": 127.68,
-        "end": 127.68
-      },
-      {
-        "text": "muchas",
-        "start": 127.68,
-        "end": 127.68
-      },
-      {
-        "text": "flores.",
-        "start": 127.68,
-        "end": 127.68
-      }
-    ],
-    "translation": "A garden with many, many flowers."
-  },
-  {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 127.68,
-    "end": 127.72,
-    "words": [
-      {
-        "text": "Un",
-        "start": 127.68,
-        "end": 127.68
-      },
-      {
-        "text": "jardín",
-        "start": 127.68,
-        "end": 127.68
-      },
-      {
-        "text": "con",
-        "start": 127.68,
-        "end": 127.72
-      },
-      {
-        "text": "muchas,",
-        "start": 127.72,
-        "end": 127.72
-      },
-      {
-        "text": "muchas",
-        "start": 127.72,
-        "end": 127.72
-      },
-      {
-        "text": "flores.",
-        "start": 127.72,
-        "end": 127.72
-      }
-    ],
-    "translation": "A garden with many, many flowers."
-  },
-  {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 127.72,
-    "end": 128.96,
-    "words": [
-      {
-        "text": "Un",
-        "start": 127.72,
-        "end": 127.72
-      },
-      {
-        "text": "jardín",
-        "start": 127.72,
-        "end": 127.72
-      },
-      {
-        "text": "con",
-        "start": 127.72,
-        "end": 128.82
-      },
-      {
-        "text": "muchas,",
-        "start": 128.82,
-        "end": 128.96
-      },
-      {
-        "text": "muchas",
-        "start": 128.96,
-        "end": 128.96
-      },
-      {
-        "text": "flores.",
-        "start": 128.96,
-        "end": 128.96
-      }
-    ],
-    "translation": "A garden with many, many flowers."
-  },
-  {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 128.96,
-    "end": 131.34,
-    "words": [
-      {
-        "text": "Un",
-        "start": 128.96,
-        "end": 128.96
-      },
-      {
-        "text": "jardín",
-        "start": 128.96,
-        "end": 129.24
-      },
-      {
-        "text": "con",
-        "start": 129.24,
+        "text": "de",
+        "start": 129.3,
         "end": 129.4
       },
       {
-        "text": "muchas,",
+        "text": "Alonso",
         "start": 129.4,
-        "end": 129.54
+        "end": 129.74
       },
       {
-        "text": "muchas",
-        "start": 129.76,
-        "end": 131.34
+        "text": "hay",
+        "start": 129.74,
+        "end": 131.42
       },
       {
-        "text": "flores.",
-        "start": 131.34,
-        "end": 131.34
+        "text": "un",
+        "start": 131.42,
+        "end": 131.8
+      },
+      {
+        "text": "árbol.",
+        "start": 131.8,
+        "end": 132.28
       }
     ],
-    "translation": "A garden with many, many flowers."
+    "translation": "And in Alonso's garden there's a tree."
   },
   {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 131.34,
-    "end": 131.36,
+    "text": "Hay un árbol.",
+    "start": 140.34,
+    "end": 142.46,
     "words": [
       {
-        "text": "Un",
-        "start": 131.34,
-        "end": 131.36
+        "text": "Hay",
+        "start": 140.34,
+        "end": 141.38
       },
       {
-        "text": "jardín",
-        "start": 131.36,
-        "end": 131.36
+        "text": "un",
+        "start": 141.38,
+        "end": 141.76
       },
       {
-        "text": "con",
-        "start": 131.36,
-        "end": 131.36
-      },
-      {
-        "text": "muchas,",
-        "start": 131.36,
-        "end": 131.36
-      },
-      {
-        "text": "muchas",
-        "start": 131.36,
-        "end": 131.36
-      },
-      {
-        "text": "flores.",
-        "start": 131.36,
-        "end": 131.36
+        "text": "árbol.",
+        "start": 141.76,
+        "end": 142.46
       }
     ],
-    "translation": "A garden with many, many flowers."
+    "translation": "There's a tree."
   },
   {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 131.36,
-    "end": 131.7,
+    "text": "Hay un árbol.",
+    "start": 142.5,
+    "end": 142.82,
     "words": [
       {
-        "text": "Un",
-        "start": 131.36,
-        "end": 131.38
+        "text": "Hay",
+        "start": 142.5,
+        "end": 142.82
       },
       {
-        "text": "jardín",
-        "start": 131.38,
-        "end": 131.6
+        "text": "un",
+        "start": 142.82,
+        "end": 142.82
       },
       {
-        "text": "con",
-        "start": 131.6,
-        "end": 131.6
-      },
-      {
-        "text": "muchas,",
-        "start": 131.6,
-        "end": 131.6
-      },
-      {
-        "text": "muchas",
-        "start": 131.6,
-        "end": 131.7
-      },
-      {
-        "text": "flores.",
-        "start": 131.7,
-        "end": 131.7
+        "text": "árbol.",
+        "start": 142.82,
+        "end": 142.82
       }
     ],
-    "translation": "A garden with many, many flowers."
+    "translation": "There's a tree."
   },
   {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 131.7,
-    "end": 132.24,
+    "text": "Hay un árbol.",
+    "start": 142.82,
+    "end": 143.38,
     "words": [
       {
-        "text": "Un",
-        "start": 131.7,
-        "end": 131.7
+        "text": "Hay",
+        "start": 142.82,
+        "end": 143.38
       },
       {
-        "text": "jardín",
-        "start": 131.7,
-        "end": 132.04
+        "text": "un",
+        "start": 143.38,
+        "end": 143.38
       },
       {
-        "text": "con",
-        "start": 132.04,
-        "end": 132.04
-      },
-      {
-        "text": "muchas,",
-        "start": 132.04,
-        "end": 132.04
-      },
-      {
-        "text": "muchas",
-        "start": 132.04,
-        "end": 132.04
-      },
-      {
-        "text": "flores.",
-        "start": 132.04,
-        "end": 132.24
+        "text": "árbol.",
+        "start": 143.38,
+        "end": 143.38
       }
     ],
-    "translation": "A garden with many, many flowers."
+    "translation": "There's a tree."
   },
   {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 132.7,
-    "end": 139.52,
-    "words": [
-      {
-        "text": "Un",
-        "start": 132.7,
-        "end": 133.44
-      },
-      {
-        "text": "jardín",
-        "start": 133.44,
-        "end": 134.14
-      },
-      {
-        "text": "con",
-        "start": 134.14,
-        "end": 134.14
-      },
-      {
-        "text": "muchas,",
-        "start": 134.14,
-        "end": 134.14
-      },
-      {
-        "text": "muchas",
-        "start": 137.34,
-        "end": 137.4
-      },
-      {
-        "text": "flores.",
-        "start": 137.4,
-        "end": 139.52
-      }
-    ],
-    "translation": "A garden with many, many flowers."
-  },
-  {
-    "text": "Un jardín con muchas, muchas flores.",
-    "start": 139.52,
+    "text": "Hay un árbol.",
+    "start": 143.38,
     "end": 143.88,
     "words": [
       {
-        "text": "Un",
-        "start": 139.52,
-        "end": 139.52
-      },
-      {
-        "text": "jardín",
-        "start": 139.52,
-        "end": 142.62
-      },
-      {
-        "text": "con",
-        "start": 142.62,
-        "end": 142.68
-      },
-      {
-        "text": "muchas,",
-        "start": 142.68,
+        "text": "Hay",
+        "start": 143.38,
         "end": 143.88
       },
       {
-        "text": "muchas",
+        "text": "un",
         "start": 143.88,
         "end": 143.88
       },
       {
-        "text": "flores.",
+        "text": "árbol.",
         "start": 143.88,
         "end": 143.88
       }
     ],
-    "translation": "A garden with many, many flowers."
+    "translation": "There's a tree."
   },
   {
     "text": "Alonso vive en su casa con sus dos hijas.",
@@ -1850,189 +1559,187 @@
     "translation": "They play by the tree."
   },
   {
-    "text": "Las dos hijas mad ambiguity y mad",
-    "start": 290.22,
-    "end": 293.58,
+    "text": "sliced",
+    "start": 289.02,
+    "end": 291.6,
     "words": [
       {
-        "text": "Las",
-        "start": 290.22,
-        "end": 291.3
-      },
-      {
-        "text": "dos",
-        "start": 291.3,
-        "end": 291.52
-      },
-      {
-        "text": "hijas",
-        "start": 291.52,
-        "end": 291.86
-      },
-      {
-        "text": "mad",
-        "start": 291.86,
-        "end": 291.86
-      },
-      {
-        "text": "ambiguity",
-        "start": 291.86,
-        "end": 291.86
-      },
-      {
-        "text": "y",
-        "start": 291.86,
-        "end": 292.98
-      },
-      {
-        "text": "mad",
-        "start": 292.98,
-        "end": 293.58
+        "text": "sliced",
+        "start": 289.02,
+        "end": 291.6
       }
     ],
-    "translation": "The two daughters mad ambiguity and mad"
+    "translation": "sliced"
   },
   {
-    "text": "y mad",
-    "start": 293.58,
-    "end": 294.22,
+    "text": "sliced",
+    "start": 291.6,
+    "end": 292.06,
     "words": [
       {
-        "text": "y",
-        "start": 293.58,
-        "end": 294.22
-      },
-      {
-        "text": "mad",
-        "start": 294.22,
-        "end": 294.22
+        "text": "sliced",
+        "start": 291.6,
+        "end": 292.06
       }
     ],
-    "translation": "and mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 294.22,
+    "text": "sliced",
+    "start": 292.06,
+    "end": 293.42,
+    "words": [
+      {
+        "text": "sliced",
+        "start": 292.06,
+        "end": 293.42
+      }
+    ],
+    "translation": "sliced"
+  },
+  {
+    "text": "sliced",
+    "start": 293.42,
+    "end": 294.28,
+    "words": [
+      {
+        "text": "sliced",
+        "start": 293.42,
+        "end": 294.28
+      }
+    ],
+    "translation": "sliced"
+  },
+  {
+    "text": "sliced",
+    "start": 294.28,
+    "end": 294.58,
+    "words": [
+      {
+        "text": "sliced",
+        "start": 294.28,
+        "end": 294.58
+      }
+    ],
+    "translation": "sliced"
+  },
+  {
+    "text": "sliced",
+    "start": 294.58,
     "end": 294.6,
     "words": [
       {
-        "text": "mad",
-        "start": 294.22,
+        "text": "sliced",
+        "start": 294.58,
         "end": 294.6
       }
     ],
-    "translation": "mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 294.6,
-    "end": 294.62,
+    "text": "sliced",
+    "start": 296.86,
+    "end": 298.26,
     "words": [
       {
-        "text": "mad",
-        "start": 294.6,
-        "end": 294.62
+        "text": "sliced",
+        "start": 296.86,
+        "end": 298.26
       }
     ],
-    "translation": "mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 294.62,
-    "end": 296.7,
+    "text": "sliced",
+    "start": 298.26,
+    "end": 298.62,
     "words": [
       {
-        "text": "mad",
-        "start": 294.62,
-        "end": 296.7
+        "text": "sliced",
+        "start": 298.26,
+        "end": 298.96
       }
     ],
-    "translation": "mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 296.7,
-    "end": 297.18,
+    "text": "sliced",
+    "start": 299.24,
+    "end": 299.3,
     "words": [
       {
-        "text": "mad",
-        "start": 296.7,
-        "end": 297.18
+        "text": "sliced",
+        "start": 299.24,
+        "end": 299.3
       }
     ],
-    "translation": "mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 297.18,
-    "end": 297.4,
+    "text": "sliced",
+    "start": 299.3,
+    "end": 299.34,
     "words": [
       {
-        "text": "mad",
-        "start": 297.18,
-        "end": 297.4
+        "text": "sliced",
+        "start": 299.3,
+        "end": 299.34
       }
     ],
-    "translation": "mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 300.68,
-    "end": 301.76,
+    "text": "!",
+    "start": 299.34,
+    "end": 299.88,
     "words": [
       {
-        "text": "mad",
-        "start": 300.68,
-        "end": 301.76
+        "text": "sliced!!",
+        "start": 299.34,
+        "end": 299.88
       }
     ],
-    "translation": "mad"
+    "translation": "Oh, my God!"
   },
   {
-    "text": "mad",
-    "start": 301.76,
-    "end": 301.78,
+    "text": "sliced",
+    "start": 314.8,
+    "end": 316.2,
     "words": [
       {
-        "text": "mad",
-        "start": 301.76,
-        "end": 301.78
+        "text": "sliced",
+        "start": 314.8,
+        "end": 316.2
       }
     ],
-    "translation": "mad"
+    "translation": "sliced"
   },
   {
-    "text": "mad",
-    "start": 317.92,
-    "end": 319.0,
-    "words": [
-      {
-        "text": "mad",
-        "start": 317.92,
-        "end": 319.0
-      }
-    ],
-    "translation": "mad"
+    "text": "sliced",
+    "start": 313.7,
+    "end": 314.9,
+    "words": [],
+    "translation": "sliced"
   },
   {
     "text": "Y de pronto, de pronto, de pronto, las dos hijas comienzan a pelear.",
-    "start": 321.48,
+    "start": 321.26,
     "end": 336.66,
     "words": [
       {
         "text": "Y",
-        "start": 321.48,
-        "end": 322.42
+        "start": 321.26,
+        "end": 322.24
       },
       {
         "text": "de",
-        "start": 322.42,
+        "start": 322.24,
         "end": 322.62
       },
       {
         "text": "pronto,",
         "start": 322.62,
-        "end": 323.12
+        "end": 323.14
       },
       {
         "text": "de",
@@ -2042,26 +1749,26 @@
       {
         "text": "pronto,",
         "start": 324.18,
-        "end": 324.62
+        "end": 324.6
       },
       {
         "text": "de",
         "start": 324.68,
-        "end": 328.64
+        "end": 328.7
       },
       {
         "text": "pronto,",
-        "start": 328.64,
+        "start": 328.7,
         "end": 331.18
       },
       {
         "text": "las",
         "start": 331.18,
-        "end": 332.74
+        "end": 332.76
       },
       {
         "text": "dos",
-        "start": 332.74,
+        "start": 332.76,
         "end": 333.12
       },
       {
@@ -2090,7 +1797,7 @@
   {
     "text": "Pelear es...",
     "start": 336.78,
-    "end": 337.88,
+    "end": 337.9,
     "words": [
       {
         "text": "Pelear",
@@ -2100,24 +1807,24 @@
       {
         "text": "es...",
         "start": 337.44,
-        "end": 337.88
+        "end": 337.9
       }
     ],
     "translation": "Fighting is..."
   },
   {
     "text": "A pelear y a gritar.",
-    "start": 339.68,
+    "start": 339.62,
     "end": 341.7,
     "words": [
       {
         "text": "A",
-        "start": 339.55,
-        "end": 340.02
+        "start": 339.59,
+        "end": 340.08
       },
       {
         "text": "pelear",
-        "start": 340.02,
+        "start": 340.08,
         "end": 340.96
       },
       {
@@ -2140,40 +1847,63 @@
   },
   {
     "text": "Pelear y gritar.",
-    "start": 342.64,
+    "start": 342.6,
     "end": 345.18,
     "words": [
       {
         "text": "Pelear",
-        "start": 342.64,
+        "start": 342.6,
         "end": 343.58
       },
       {
         "text": "y",
         "start": 343.58,
-        "end": 344.4
+        "end": 344.42
       },
       {
         "text": "gritar.",
-        "start": 344.4,
+        "start": 344.42,
         "end": 345.18
       }
     ],
     "translation": "Fight and scream."
   },
   {
+    "text": "Pelear y gritar.",
+    "start": 350.26,
+    "end": 351.34,
+    "words": [
+      {
+        "text": "Pelear",
+        "start": 350.26,
+        "end": 351.22
+      },
+      {
+        "text": "y",
+        "start": 351.22,
+        "end": 351.32
+      },
+      {
+        "text": "gritar.",
+        "start": 351.32,
+        "end": 351.34
+      }
+    ],
+    "translation": "Fight and scream."
+  },
+  {
     "text": "Pelean, pelean, pelean.",
-    "start": 350.24,
+    "start": 351.34,
     "end": 351.9,
     "words": [
       {
         "text": "Pelean,",
-        "start": 350.24,
-        "end": 351.22
+        "start": 351.34,
+        "end": 351.34
       },
       {
         "text": "pelean,",
-        "start": 351.32,
+        "start": 351.34,
         "end": 351.62
       },
       {
@@ -2186,27 +1916,27 @@
   },
   {
     "text": "Con las niñas estaba en el jardín su maestro.",
-    "start": 355.14,
+    "start": 355.2,
     "end": 363.08,
     "words": [
       {
         "text": "Con",
-        "start": 355.14,
-        "end": 356.12
+        "start": 355.2,
+        "end": 356.16
       },
       {
         "text": "las",
-        "start": 356.12,
-        "end": 357.1
+        "start": 356.16,
+        "end": 357.12
       },
       {
         "text": "niñas",
-        "start": 357.1,
-        "end": 357.58
+        "start": 357.12,
+        "end": 357.6
       },
       {
         "text": "estaba",
-        "start": 357.58,
+        "start": 357.6,
         "end": 360.46
       },
       {
@@ -2227,49 +1957,67 @@
       {
         "text": "su",
         "start": 361.66,
-        "end": 362.2
+        "end": 362.22
       },
       {
         "text": "maestro.",
-        "start": 362.2,
+        "start": 362.22,
         "end": 363.08
       }
     ],
     "translation": "With the girls, his teacher was in the garden."
   },
   {
-    "text": "El maestro es la persona con quien las niñas estudian arte, literatura, matemática.",
-    "start": 366.9,
-    "end": 377.2,
+    "text": "Su maestro.",
+    "start": 364.4,
+    "end": 365.22,
+    "words": [
+      {
+        "text": "Su",
+        "start": 364.02,
+        "end": 364.5
+      },
+      {
+        "text": "maestro.",
+        "start": 364.5,
+        "end": 365.22
+      }
+    ],
+    "translation": "Your teacher."
+  },
+  {
+    "text": "El maestro es la persona con quien las niñas estudian arte literario.",
+    "start": 367.36,
+    "end": 376.18,
     "words": [
       {
         "text": "El",
-        "start": 366.9,
-        "end": 367.88
+        "start": 367.36,
+        "end": 368.32
       },
       {
         "text": "maestro",
-        "start": 367.88,
-        "end": 368.86
+        "start": 368.32,
+        "end": 368.88
       },
       {
         "text": "es",
-        "start": 368.86,
-        "end": 369.44
+        "start": 368.88,
+        "end": 369.72
       },
       {
         "text": "la",
-        "start": 369.44,
+        "start": 369.72,
         "end": 369.82
       },
       {
         "text": "persona",
         "start": 369.82,
-        "end": 370.32
+        "end": 370.28
       },
       {
         "text": "con",
-        "start": 370.32,
+        "start": 370.28,
         "end": 372.86
       },
       {
@@ -2285,92 +2033,92 @@
       {
         "text": "niñas",
         "start": 373.52,
-        "end": 373.96
+        "end": 373.94
       },
       {
         "text": "estudian",
-        "start": 373.96,
-        "end": 374.96
+        "start": 373.94,
+        "end": 374.98
       },
       {
-        "text": "arte,",
-        "start": 374.96,
+        "text": "arte",
+        "start": 374.98,
         "end": 375.38
       },
       {
-        "text": "literatura,",
-        "start": 375.4,
-        "end": 376.38
+        "text": "literario.",
+        "start": 375.38,
+        "end": 376.18
+      }
+    ],
+    "translation": "The teacher is the person with whom girls study literary art."
+  },
+  {
+    "text": "Literatura, matemática.",
+    "start": 376.2,
+    "end": 377.24,
+    "words": [
+      {
+        "text": "Literatura,",
+        "start": 376.2,
+        "end": 376.4
       },
       {
         "text": "matemática.",
-        "start": 376.38,
-        "end": 377.2
+        "start": 376.4,
+        "end": 377.24
       }
     ],
-    "translation": "The teacher is the person with whom girls study art, literature, mathematics."
-  },
-  {
-    "text": "¿Sí?",
-    "start": 378.08,
-    "end": 378.34,
-    "words": [
-      {
-        "text": "¿Sí?",
-        "start": 377.85,
-        "end": 378.34
-      }
-    ],
-    "translation": "Yeah?"
+    "translation": "Literature, mathematics."
   },
   {
     "text": "El maestro sabe mucho, sabe mucho de matemática, de literatura y arte.",
-    "start": 378.34,
-    "end": 385.92,
+    "start": 378.3,
+    "end": 385.96,
     "words": [
       {
         "text": "El",
-        "start": 378.34,
-        "end": 378.6
+        "start": 378.07,
+        "end": 378.48
       },
       {
         "text": "maestro",
-        "start": 378.6,
+        "start": 378.48,
         "end": 379.22
       },
       {
         "text": "sabe",
         "start": 379.22,
-        "end": 380.96
+        "end": 380.98
       },
       {
         "text": "mucho,",
-        "start": 380.96,
+        "start": 380.98,
         "end": 381.5
       },
       {
         "text": "sabe",
-        "start": 381.62,
+        "start": 381.6,
         "end": 382.4
       },
       {
         "text": "mucho",
         "start": 382.4,
-        "end": 382.82
+        "end": 382.78
       },
       {
         "text": "de",
-        "start": 382.82,
-        "end": 383.82
+        "start": 382.78,
+        "end": 383.8
       },
       {
         "text": "matemática,",
-        "start": 383.82,
+        "start": 383.8,
         "end": 384.52
       },
       {
         "text": "de",
-        "start": 384.6,
+        "start": 384.52,
         "end": 384.72
       },
       {
@@ -2386,7 +2134,7 @@
       {
         "text": "arte.",
         "start": 385.62,
-        "end": 385.92
+        "end": 385.96
       }
     ],
     "translation": "The teacher knows a lot, he knows a lot about mathematics, literature and art."
@@ -2426,7 +2174,7 @@
     "words": [
       {
         "text": "Y",
-        "start": 388.26,
+        "start": 388.27,
         "end": 388.68
       },
       {
@@ -2442,16 +2190,16 @@
       {
         "text": "jugaban",
         "start": 389.16,
-        "end": 389.68
+        "end": 389.72
       },
       {
         "text": "en",
-        "start": 389.68,
-        "end": 391.88
+        "start": 389.72,
+        "end": 391.9
       },
       {
         "text": "el",
-        "start": 391.88,
+        "start": 391.9,
         "end": 392.04
       },
       {
@@ -2462,16 +2210,16 @@
       {
         "text": "con",
         "start": 392.58,
-        "end": 393.52
+        "end": 393.5
       },
       {
         "text": "el",
-        "start": 393.52,
-        "end": 395.06
+        "start": 393.5,
+        "end": 395.04
       },
       {
         "text": "maestro",
-        "start": 395.06,
+        "start": 395.04,
         "end": 395.54
       },
       {
@@ -2482,11 +2230,11 @@
       {
         "text": "comenzaron",
         "start": 397.62,
-        "end": 398.62
+        "end": 398.64
       },
       {
         "text": "a",
-        "start": 398.62,
+        "start": 398.64,
         "end": 398.9
       },
       {
@@ -2513,13 +2261,13 @@
     "translation": "And the girls played in the aranjo with the teacher when they started fighting and screaming."
   },
   {
-    "text": "Y Alonso, el padre de las dos niñas, escucha.",
-    "start": 400.16,
-    "end": 407.48,
+    "text": "Y Alonso, el padre de las dos niñas.",
+    "start": 400.14,
+    "end": 405.52,
     "words": [
       {
         "text": "Y",
-        "start": 400.16,
+        "start": 400.14,
         "end": 400.82
       },
       {
@@ -2540,11 +2288,11 @@
       {
         "text": "de",
         "start": 403.08,
-        "end": 404.84
+        "end": 404.78
       },
       {
         "text": "las",
-        "start": 404.84,
+        "start": 404.78,
         "end": 404.94
       },
       {
@@ -2553,49 +2301,49 @@
         "end": 405.12
       },
       {
-        "text": "niñas,",
+        "text": "niñas.",
         "start": 405.12,
-        "end": 405.56
-      },
-      {
-        "text": "escucha.",
-        "start": 405.62,
-        "end": 407.48
+        "end": 405.52
       }
     ],
-    "translation": "And Alonso, the father of the two girls, listen."
+    "translation": "And Alonso, the father of the two girls."
   },
   {
-    "text": "Los gritos.",
-    "start": 408.34,
-    "end": 409.04,
+    "text": "Escucha los gritos.",
+    "start": 406.2,
+    "end": 409.06,
     "words": [
       {
-        "text": "Los",
-        "start": 408.34,
-        "end": 408.54
+        "text": "Escucha",
+        "start": 406.2,
+        "end": 407.4
+      },
+      {
+        "text": "los",
+        "start": 407.4,
+        "end": 408.52
       },
       {
         "text": "gritos.",
-        "start": 408.54,
-        "end": 409.04
+        "start": 408.52,
+        "end": 409.06
       }
     ],
-    "translation": "The screams."
+    "translation": "Listen to the screams."
   },
   {
     "text": "Y está muy sorprendido.",
-    "start": 409.12,
+    "start": 409.08,
     "end": 413.12,
     "words": [
       {
         "text": "Y",
-        "start": 409.12,
-        "end": 409.9
+        "start": 409.08,
+        "end": 409.94
       },
       {
         "text": "está",
-        "start": 409.9,
+        "start": 409.94,
         "end": 412.0
       },
       {
@@ -2613,17 +2361,17 @@
   },
   {
     "text": "Está sorprendido.",
-    "start": 414.46,
+    "start": 414.62,
     "end": 416.28,
     "words": [
       {
         "text": "Está",
-        "start": 414.46,
-        "end": 415.22
+        "start": 414.62,
+        "end": 415.2
       },
       {
         "text": "sorprendido.",
-        "start": 415.22,
+        "start": 415.2,
         "end": 416.28
       }
     ],
@@ -2631,17 +2379,17 @@
   },
   {
     "text": "Sorprendido es.",
-    "start": 422.48,
+    "start": 421.82,
     "end": 423.3,
     "words": [
       {
         "text": "Sorprendido",
-        "start": 422.48,
-        "end": 423.2
+        "start": 421.82,
+        "end": 423.18
       },
       {
         "text": "es.",
-        "start": 423.2,
+        "start": 423.18,
         "end": 423.3
       }
     ],
@@ -2649,12 +2397,12 @@
   },
   {
     "text": "Está sorprendido.",
-    "start": 424.6,
+    "start": 423.9,
     "end": 425.94,
     "words": [
       {
         "text": "Está",
-        "start": 424.58,
+        "start": 423.9,
         "end": 425.26
       },
       {
@@ -2667,7 +2415,7 @@
   },
   {
     "text": "Y grita.",
-    "start": 427.0,
+    "start": 426.98,
     "end": 427.76,
     "words": [
       {
@@ -2685,12 +2433,12 @@
   },
   {
     "text": "¿Por qué pelean?",
-    "start": 427.8,
-    "end": 429.18,
+    "start": 427.78,
+    "end": 429.2,
     "words": [
       {
         "text": "¿Por",
-        "start": 427.8,
+        "start": 427.78,
         "end": 428.56
       },
       {
@@ -2701,68 +2449,55 @@
       {
         "text": "pelean?",
         "start": 428.78,
-        "end": 429.18
+        "end": 429.2
       }
     ],
     "translation": "Why are they fighting?"
   },
   {
     "text": "Grita.",
-    "start": 430.32,
-    "end": 431.08,
+    "start": 430.5,
+    "end": 431.06,
     "words": [
       {
         "text": "Grita.",
-        "start": 430.32,
-        "end": 431.08
-      }
-    ],
-    "translation": "Scream."
-  },
-  {
-    "text": "Grita.",
-    "start": 431.84,
-    "end": 433.2,
-    "words": [
-      {
-        "text": "Grita.",
-        "start": 431.84,
-        "end": 433.2
+        "start": 430.38,
+        "end": 431.06
       }
     ],
     "translation": "Scream."
   },
   {
     "text": "!",
-    "start": 438.34,
-    "end": 438.46,
+    "start": 436.2,
+    "end": 436.78,
     "words": [
       {
         "text": "!",
-        "start": 438.34,
-        "end": 438.46
+        "start": 436.2,
+        "end": 436.78
       }
     ],
     "translation": "Oh, my God!"
   },
   {
     "text": "¿Por qué pelean?",
-    "start": 442.24,
+    "start": 442.6,
     "end": 443.2,
     "words": [
       {
         "text": "¿Por",
-        "start": 442.24,
-        "end": 442.64
+        "start": 442.15,
+        "end": 442.62
       },
       {
         "text": "qué",
-        "start": 442.64,
-        "end": 442.82
+        "start": 442.62,
+        "end": 442.8
       },
       {
         "text": "pelean?",
-        "start": 442.82,
+        "start": 442.8,
         "end": 443.2
       }
     ],
@@ -2770,379 +2505,255 @@
   },
   {
     "text": "¿Por qué?",
-    "start": 443.96,
-    "end": 444.54,
+    "start": 444.04,
+    "end": 444.48,
     "words": [
       {
         "text": "¿Por",
-        "start": 443.96,
-        "end": 444.36
+        "start": 443.85,
+        "end": 444.32
       },
       {
         "text": "qué?",
-        "start": 444.36,
-        "end": 444.54
+        "start": 444.32,
+        "end": 444.48
       }
     ],
     "translation": "Why?"
   },
   {
-    "text": "¿Por qué pelean?",
-    "start": 446.76,
-    "end": 447.4,
+    "text": "Y el maestro.",
+    "start": 446.72,
+    "end": 447.64,
     "words": [
       {
-        "text": "¿Por",
-        "start": 446.76,
-        "end": 447.16
+        "text": "Y",
+        "start": 446.43,
+        "end": 446.9
       },
       {
-        "text": "qué",
-        "start": 447.16,
-        "end": 447.16
+        "text": "el",
+        "start": 446.9,
+        "end": 447.08
       },
       {
-        "text": "pelean?",
-        "start": 447.16,
-        "end": 447.4
+        "text": "maestro.",
+        "start": 447.08,
+        "end": 447.64
       }
     ],
-    "translation": "Why are they fighting?"
+    "translation": "And the master."
   },
   {
-    "text": "¿Por qué?",
-    "start": 448.9,
-    "end": 449.3,
+    "text": "El maestro.",
+    "start": 448.96,
+    "end": 450.36,
     "words": [
       {
-        "text": "¿Por",
-        "start": 448.9,
-        "end": 449.3
-      },
-      {
-        "text": "qué?",
-        "start": 449.3,
-        "end": 449.3
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 449.42,
-    "end": 449.82,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 449.42,
-        "end": 449.82
-      },
-      {
-        "text": "qué?",
-        "start": 449.82,
-        "end": 449.82
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 449.82,
-    "end": 449.9,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 449.82,
+        "text": "El",
+        "start": 448.96,
         "end": 449.9
       },
       {
-        "text": "qué?",
+        "text": "maestro.",
         "start": 449.9,
-        "end": 449.9
+        "end": 450.36
       }
     ],
-    "translation": "Why?"
+    "translation": "The master."
   },
   {
-    "text": "¿Por qué?",
-    "start": 449.9,
-    "end": 449.94,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 449.9,
-        "end": 449.94
-      },
-      {
-        "text": "qué?",
-        "start": 449.94,
-        "end": 449.94
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 449.94,
-    "end": 449.96,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 449.94,
-        "end": 449.96
-      },
-      {
-        "text": "qué?",
-        "start": 449.96,
-        "end": 449.96
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 449.96,
-    "end": 450.04,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 449.96,
-        "end": 450.04
-      },
-      {
-        "text": "qué?",
-        "start": 450.04,
-        "end": 450.04
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 451.28,
-    "end": 451.68,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 451.28,
-        "end": 451.68
-      },
-      {
-        "text": "qué?",
-        "start": 451.68,
-        "end": 451.68
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 451.76,
+    "text": "El maestro.",
+    "start": 451.22,
     "end": 452.16,
     "words": [
       {
-        "text": "¿Por",
-        "start": 451.76,
+        "text": "El",
+        "start": 451.22,
         "end": 452.16
       },
       {
-        "text": "qué?",
+        "text": "maestro.",
         "start": 452.16,
         "end": 452.16
       }
     ],
-    "translation": "Why?"
+    "translation": "The master."
   },
   {
-    "text": "¿Por qué?",
-    "start": 457.54,
-    "end": 457.94,
+    "text": "El maestro.",
+    "start": 452.16,
+    "end": 455.4,
+    "words": [
+      {
+        "text": "El",
+        "start": 452.16,
+        "end": 452.16
+      },
+      {
+        "text": "maestro.",
+        "start": 452.16,
+        "end": 455.4
+      }
+    ],
+    "translation": "The master."
+  },
+  {
+    "text": "Le dice a Alonso.",
+    "start": 456.9,
+    "end": 460.72,
+    "words": [
+      {
+        "text": "Le",
+        "start": 456.9,
+        "end": 457.84
+      },
+      {
+        "text": "dice",
+        "start": 457.84,
+        "end": 458.16
+      },
+      {
+        "text": "a",
+        "start": 458.16,
+        "end": 460.22
+      },
+      {
+        "text": "Alonso.",
+        "start": 460.22,
+        "end": 460.72
+      }
+    ],
+    "translation": "He tells Alonso."
+  },
+  {
+    "text": "Pelean por una naranja.",
+    "start": 460.88,
+    "end": 463.22,
+    "words": [
+      {
+        "text": "Pelean",
+        "start": 460.88,
+        "end": 461.82
+      },
+      {
+        "text": "por",
+        "start": 461.82,
+        "end": 462.34
+      },
+      {
+        "text": "una",
+        "start": 462.34,
+        "end": 462.62
+      },
+      {
+        "text": "naranja.",
+        "start": 462.62,
+        "end": 463.22
+      }
+    ],
+    "translation": "They fight for an orange."
+  },
+  {
+    "text": "Por una naranja.",
+    "start": 463.38,
+    "end": 465.04,
+    "words": [
+      {
+        "text": "Por",
+        "start": 463.38,
+        "end": 464.32
+      },
+      {
+        "text": "una",
+        "start": 464.32,
+        "end": 464.56
+      },
+      {
+        "text": "naranja.",
+        "start": 464.56,
+        "end": 465.04
+      }
+    ],
+    "translation": "For an orange."
+  },
+  {
+    "text": "Por una naranja.",
+    "start": 465.1,
+    "end": 466.18,
+    "words": [
+      {
+        "text": "Por",
+        "start": 465.1,
+        "end": 465.82
+      },
+      {
+        "text": "una",
+        "start": 465.82,
+        "end": 466.04
+      },
+      {
+        "text": "naranja.",
+        "start": 466.04,
+        "end": 466.18
+      }
+    ],
+    "translation": "For an orange."
+  },
+  {
+    "text": "¿Por una naranja?",
+    "start": 466.18,
+    "end": 466.6,
     "words": [
       {
         "text": "¿Por",
-        "start": 457.54,
-        "end": 457.94
+        "start": 466.18,
+        "end": 466.2
       },
       {
-        "text": "qué?",
-        "start": 457.94,
-        "end": 457.94
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 458.1,
-    "end": 458.14,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 458.1,
-        "end": 458.14
+        "text": "una",
+        "start": 466.2,
+        "end": 466.2
       },
-      {
-        "text": "qué?",
-        "start": 458.14,
-        "end": 458.14
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 458.14,
-    "end": 458.34,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 458.14,
-        "end": 458.34
-      },
-      {
-        "text": "qué?",
-        "start": 458.34,
-        "end": 458.34
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 458.34,
-    "end": 458.42,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 458.34,
-        "end": 458.42
-      },
-      {
-        "text": "qué?",
-        "start": 458.42,
-        "end": 458.42
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 458.9,
-    "end": 459.3,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 458.9,
-        "end": 459.3
-      },
-      {
-        "text": "qué?",
-        "start": 459.3,
-        "end": 459.3
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 459.76,
-    "end": 460.16,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 459.76,
-        "end": 460.16
-      },
-      {
-        "text": "qué?",
-        "start": 460.16,
-        "end": 460.16
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 460.16,
-    "end": 460.78,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 460.16,
-        "end": 460.36
-      },
-      {
-        "text": "qué?",
-        "start": 460.36,
-        "end": 460.78
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 461.28,
-    "end": 461.76,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 461.28,
-        "end": 461.68
-      },
-      {
-        "text": "qué?",
-        "start": 461.68,
-        "end": 461.76
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "¿Por qué?",
-    "start": 461.76,
-    "end": 466.14,
-    "words": [
-      {
-        "text": "¿Por",
-        "start": 461.76,
-        "end": 462.04
-      },
-      {
-        "text": "qué?",
-        "start": 462.04,
-        "end": 466.14
-      }
-    ],
-    "translation": "Why?"
-  },
-  {
-    "text": "naranja? Pregunta Alonso. Sí, dice el maestro. El árbol solo tiene una naranja, una naranja.",
-    "start": 466.14,
-    "end": 480.42,
-    "words": [
       {
         "text": "naranja?",
-        "start": 466.14,
-        "end": 466.62
-      },
+        "start": 466.2,
+        "end": 466.6
+      }
+    ],
+    "translation": "For an orange?"
+  },
+  {
+    "text": "Pregunta Alonso.",
+    "start": 467.18,
+    "end": 468.58,
+    "words": [
       {
         "text": "Pregunta",
-        "start": 467.14,
+        "start": 467.18,
         "end": 468.1
       },
       {
         "text": "Alonso.",
         "start": 468.1,
-        "end": 468.56
-      },
+        "end": 468.58
+      }
+    ],
+    "translation": "Question Alonso."
+  },
+  {
+    "text": "Sí, dice el maestro.",
+    "start": 469.4,
+    "end": 472.74,
+    "words": [
       {
         "text": "Sí,",
-        "start": 469.34,
-        "end": 470.3
+        "start": 469.4,
+        "end": 470.32
       },
       {
         "text": "dice",
-        "start": 470.46,
+        "start": 470.48,
         "end": 472.16
       },
       {
@@ -3153,59 +2764,75 @@
       {
         "text": "maestro.",
         "start": 472.34,
-        "end": 472.72
-      },
+        "end": 472.74
+      }
+    ],
+    "translation": "Yes, says the master."
+  },
+  {
+    "text": "El árbol sólo tiene una naranja.",
+    "start": 473.2,
+    "end": 478.62,
+    "words": [
       {
         "text": "El",
-        "start": 473.16,
+        "start": 473.2,
         "end": 474.12
       },
       {
         "text": "árbol",
         "start": 474.12,
-        "end": 474.56
+        "end": 474.58
       },
       {
-        "text": "solo",
-        "start": 474.56,
-        "end": 476.64
+        "text": "sólo",
+        "start": 474.58,
+        "end": 476.6
       },
       {
         "text": "tiene",
-        "start": 476.64,
-        "end": 477.5
+        "start": 476.6,
+        "end": 477.54
       },
       {
         "text": "una",
-        "start": 477.5,
+        "start": 477.54,
         "end": 478.04
       },
       {
-        "text": "naranja,",
+        "text": "naranja.",
         "start": 478.04,
-        "end": 478.6
-      },
+        "end": 478.62
+      }
+    ],
+    "translation": "The tree only has one orange."
+  },
+  {
+    "text": "Una naranja.",
+    "start": 478.96,
+    "end": 480.44,
+    "words": [
       {
-        "text": "una",
-        "start": 478.68,
-        "end": 479.86
+        "text": "Una",
+        "start": 478.96,
+        "end": 479.88
       },
       {
         "text": "naranja.",
-        "start": 479.86,
-        "end": 480.42
+        "start": 479.88,
+        "end": 480.44
       }
     ],
-    "translation": "“Orange?” Alonso asks. “Yes,” says the master. “The tree has only one orange, one orange.”"
+    "translation": "An orange."
   },
   {
-    "text": "Y las dos niñas pelean por esa naranja. Pelean por su naranja.",
-    "start": 482.08,
-    "end": 492.88,
+    "text": "Y las dos niñas pelean por esa naranja.",
+    "start": 482.12,
+    "end": 487.04,
     "words": [
       {
         "text": "Y",
-        "start": 482.08,
+        "start": 482.12,
         "end": 483.04
       },
       {
@@ -3231,84 +2858,159 @@
       {
         "text": "por",
         "start": 485.1,
-        "end": 486.26
+        "end": 486.32
       },
       {
         "text": "esa",
-        "start": 486.26,
-        "end": 486.5
+        "start": 486.32,
+        "end": 486.52
       },
       {
         "text": "naranja.",
-        "start": 486.5,
+        "start": 486.52,
         "end": 487.04
+      }
+    ],
+    "translation": "And the two girls fight over that orange."
+  },
+  {
+    "text": "Naranja, mi naranja.",
+    "start": 489.22,
+    "end": 490.6,
+    "words": [
+      {
+        "text": "Naranja,",
+        "start": 489.22,
+        "end": 490.14
       },
       {
+        "text": "mi",
+        "start": 490.14,
+        "end": 490.28
+      },
+      {
+        "text": "naranja.",
+        "start": 490.28,
+        "end": 490.6
+      }
+    ],
+    "translation": "Orange, my orange."
+  },
+  {
+    "text": "Pelean por su naranja.",
+    "start": 490.74,
+    "end": 492.84,
+    "words": [
+      {
         "text": "Pelean",
-        "start": 490.48,
+        "start": 490.74,
         "end": 491.44
       },
       {
         "text": "por",
         "start": 491.44,
-        "end": 491.76
+        "end": 491.78
       },
       {
         "text": "su",
-        "start": 491.76,
+        "start": 491.78,
         "end": 492.02
       },
       {
         "text": "naranja.",
         "start": 492.02,
-        "end": 492.88
+        "end": 492.84
       }
     ],
-    "translation": "And the two girls fight for that orange, they fight for its orange."
+    "translation": "They fight for their orange."
   },
   {
-    "text": "Alonso, muy enojado, Alonso estaba enojado, le dice al maestro.",
-    "start": 495.0,
-    "end": 505.04,
+    "text": "Alonso, dice el maestro.",
+    "start": 495.24,
+    "end": 496.16,
     "words": [
       {
         "text": "Alonso,",
-        "start": 495.0,
-        "end": 496.12
+        "start": 495.24,
+        "end": 496.16
+      },
+      {
+        "text": "dice",
+        "start": 496.16,
+        "end": 496.16
+      },
+      {
+        "text": "el",
+        "start": 496.16,
+        "end": 496.16
+      },
+      {
+        "text": "maestro.",
+        "start": 496.16,
+        "end": 496.16
+      }
+    ],
+    "translation": "Alonso, says the master."
+  },
+  {
+    "text": "Alonso, muy enojado.",
+    "start": 496.16,
+    "end": 497.9,
+    "words": [
+      {
+        "text": "Alonso,",
+        "start": 496.16,
+        "end": 496.18
       },
       {
         "text": "muy",
-        "start": 496.2,
+        "start": 496.18,
         "end": 497.22
       },
       {
-        "text": "enojado,",
+        "text": "enojado.",
         "start": 497.22,
         "end": 497.9
-      },
+      }
+    ],
+    "translation": "Alonso, very angry."
+  },
+  {
+    "text": "Alonso estaba enojado.",
+    "start": 498.96,
+    "end": 500.46,
+    "words": [
       {
         "text": "Alonso",
-        "start": 497.92,
+        "start": 498.96,
         "end": 499.72
       },
       {
         "text": "estaba",
         "start": 499.72,
-        "end": 499.96
+        "end": 499.94
       },
       {
-        "text": "enojado,",
-        "start": 499.96,
+        "text": "enojado.",
+        "start": 499.94,
         "end": 500.46
-      },
+      }
+    ],
+    "translation": "Alonso was angry."
+  },
+  {
+    "text": "Le dice al maestro.",
+    "start": 503.34,
+    "end": 505.06,
+    "words": [
       {
-        "text": "le",
-        "start": 500.5,
-        "end": 503.12
+        "text": "Le",
+        "start": 503.34,
+        "end": 504.1
       },
       {
         "text": "dice",
-        "start": 503.12,
+        "start": 504.1,
         "end": 504.46
       },
       {
@@ -3319,19 +3021,19 @@
       {
         "text": "maestro.",
         "start": 504.64,
-        "end": 505.04
+        "end": 505.06
       }
     ],
-    "translation": "Alonso, very angry, Alonso was angry, tells the teacher."
+    "translation": "He tells the master."
   },
   {
-    "text": "Toma un cuchillo y corta la naranja en dos partes.",
-    "start": 505.46,
-    "end": 518.86,
+    "text": "Toma un cuchillo.",
+    "start": 505.82,
+    "end": 507.76,
     "words": [
       {
         "text": "Toma",
-        "start": 505.46,
+        "start": 505.82,
         "end": 506.58
       },
       {
@@ -3340,134 +3042,249 @@
         "end": 507.08
       },
       {
-        "text": "cuchillo",
+        "text": "cuchillo.",
         "start": 507.08,
-        "end": 507.74
+        "end": 507.76
+      }
+    ],
+    "translation": "Take a knife."
+  },
+  {
+    "text": "Un cuchillo.",
+    "start": 510.86,
+    "end": 512.04,
+    "words": [
+      {
+        "text": "Un",
+        "start": 510.86,
+        "end": 511.62
       },
       {
-        "text": "y",
-        "start": 507.74,
-        "end": 512.12
+        "text": "cuchillo.",
+        "start": 511.62,
+        "end": 512.04
+      }
+    ],
+    "translation": "A knife."
+  },
+  {
+    "text": "Un cuchillo.",
+    "start": 512.16,
+    "end": 512.72,
+    "words": [
+      {
+        "text": "Un",
+        "start": 512.16,
+        "end": 512.72
       },
       {
-        "text": "corta",
-        "start": 512.12,
-        "end": 515.64
+        "text": "cuchillo.",
+        "start": 512.72,
+        "end": 512.72
+      }
+    ],
+    "translation": "A knife."
+  },
+  {
+    "text": "Y corta.",
+    "start": 514.24,
+    "end": 515.66,
+    "words": [
+      {
+        "text": "Y",
+        "start": 514.24,
+        "end": 515.0
       },
       {
-        "text": "la",
-        "start": 515.64,
-        "end": 516.2
+        "text": "corta.",
+        "start": 515.0,
+        "end": 515.66
+      }
+    ],
+    "translation": "And cut."
+  },
+  {
+    "text": "La naranja.",
+    "start": 515.86,
+    "end": 517.18,
+    "words": [
+      {
+        "text": "La",
+        "start": 515.86,
+        "end": 516.62
       },
       {
-        "text": "naranja",
-        "start": 516.2,
-        "end": 517.2
-      },
+        "text": "naranja.",
+        "start": 516.62,
+        "end": 517.18
+      }
+    ],
+    "translation": "Orange."
+  },
+  {
+    "text": "En dos partes.",
+    "start": 517.26,
+    "end": 518.8,
+    "words": [
       {
-        "text": "en",
-        "start": 517.2,
-        "end": 518.04
+        "text": "En",
+        "start": 517.26,
+        "end": 518.02
       },
       {
         "text": "dos",
-        "start": 518.04,
+        "start": 518.02,
         "end": 518.28
       },
       {
         "text": "partes.",
         "start": 518.28,
-        "end": 518.86
-      }
-    ],
-    "translation": "Take a knife and cut the orange in two parts."
-  },
-  {
-    "text": "En dos partes.",
-    "start": 519.48,
-    "end": 521.1,
-    "words": [
-      {
-        "text": "En",
-        "start": 519.48,
-        "end": 520.6
-      },
-      {
-        "text": "dos",
-        "start": 520.6,
-        "end": 520.76
-      },
-      {
-        "text": "partes.",
-        "start": 520.76,
-        "end": 521.1
+        "end": 518.8
       }
     ],
     "translation": "In two parts."
   },
   {
-    "text": "Y el padre de las niñas dice, Alonso dice, media naranja para cada niña es justo.",
-    "start": 522.88,
-    "end": 535.76,
+    "text": "En dos partes.",
+    "start": 519.88,
+    "end": 521.14,
+    "words": [
+      {
+        "text": "En",
+        "start": 519.88,
+        "end": 520.64
+      },
+      {
+        "text": "dos",
+        "start": 520.64,
+        "end": 520.78
+      },
+      {
+        "text": "partes.",
+        "start": 520.78,
+        "end": 521.14
+      }
+    ],
+    "translation": "In two parts."
+  },
+  {
+    "text": "En dos partes.",
+    "start": 521.5,
+    "end": 521.54,
+    "words": [
+      {
+        "text": "En",
+        "start": 521.5,
+        "end": 521.54
+      },
+      {
+        "text": "dos",
+        "start": 521.54,
+        "end": 521.54
+      },
+      {
+        "text": "partes.",
+        "start": 521.54,
+        "end": 521.54
+      }
+    ],
+    "translation": "In two parts."
+  },
+  {
+    "text": "Y el padre.",
+    "start": 522.64,
+    "end": 523.84,
     "words": [
       {
         "text": "Y",
-        "start": 522.88,
-        "end": 523.38
+        "start": 522.64,
+        "end": 523.4
       },
       {
         "text": "el",
-        "start": 523.38,
+        "start": 523.4,
         "end": 523.52
       },
       {
-        "text": "padre",
+        "text": "padre.",
         "start": 523.52,
-        "end": 523.86
-      },
+        "end": 523.84
+      }
+    ],
+    "translation": "And the father."
+  },
+  {
+    "text": "De las niñas.",
+    "start": 524.22,
+    "end": 525.48,
+    "words": [
       {
-        "text": "de",
-        "start": 523.86,
-        "end": 524.86
+        "text": "De",
+        "start": 524.22,
+        "end": 524.98
       },
       {
         "text": "las",
-        "start": 524.86,
-        "end": 525.12
+        "start": 524.98,
+        "end": 525.1
       },
       {
-        "text": "niñas",
-        "start": 525.12,
+        "text": "niñas.",
+        "start": 525.1,
         "end": 525.48
-      },
+      }
+    ],
+    "translation": "From the girls."
+  },
+  {
+    "text": "Dice.",
+    "start": 525.48,
+    "end": 526.0,
+    "words": [
       {
-        "text": "dice,",
+        "text": "Dice.",
         "start": 525.48,
-        "end": 525.96
-      },
+        "end": 526.0
+      }
+    ],
+    "translation": "It says."
+  },
+  {
+    "text": "Alonso dice.",
+    "start": 526.38,
+    "end": 527.3,
+    "words": [
       {
         "text": "Alonso",
-        "start": 526.1,
-        "end": 527.04
+        "start": 526.38,
+        "end": 526.98
       },
       {
-        "text": "dice,",
-        "start": 527.04,
-        "end": 527.28
-      },
+        "text": "dice.",
+        "start": 526.98,
+        "end": 527.3
+      }
+    ],
+    "translation": "Alonso says."
+  },
+  {
+    "text": "Media naranja para cada niña es justo.",
+    "start": 529.16,
+    "end": 535.78,
+    "words": [
       {
-        "text": "media",
-        "start": 527.5,
-        "end": 529.56
+        "text": "Media",
+        "start": 529.16,
+        "end": 529.76
       },
       {
         "text": "naranja",
-        "start": 529.56,
-        "end": 530.4
+        "start": 529.76,
+        "end": 530.36
       },
       {
         "text": "para",
-        "start": 530.4,
+        "start": 530.36,
         "end": 531.24
       },
       {
@@ -3478,39 +3295,39 @@
       {
         "text": "niña",
         "start": 531.54,
-        "end": 532.02
+        "end": 531.98
       },
       {
         "text": "es",
-        "start": 532.02,
+        "start": 531.98,
         "end": 534.86
       },
       {
         "text": "justo.",
         "start": 534.86,
-        "end": 535.76
+        "end": 535.78
       }
     ],
-    "translation": "And the father of the girls says, Alonso says, half orange for every girl is fair."
+    "translation": "Half orange for every girl is fair."
   },
   {
     "text": "Media naranja es justo.",
-    "start": 538.96,
+    "start": 539.18,
     "end": 544.04,
     "words": [
       {
         "text": "Media",
-        "start": 538.96,
-        "end": 539.66
+        "start": 539.18,
+        "end": 539.78
       },
       {
         "text": "naranja",
-        "start": 539.66,
-        "end": 540.36
+        "start": 539.78,
+        "end": 540.38
       },
       {
         "text": "es",
-        "start": 540.36,
+        "start": 540.38,
         "end": 541.54
       },
       {
@@ -3522,18 +3339,18 @@
     "translation": "Half orange is fair."
   },
   {
-    "text": "Y el maestro dice, pero, pero, no, no, no.",
-    "start": 550.14,
-    "end": 552.78,
+    "text": "Y el maestro dice.",
+    "start": 549.64,
+    "end": 551.02,
     "words": [
       {
         "text": "Y",
-        "start": 549.85,
-        "end": 550.2
+        "start": 549.64,
+        "end": 550.24
       },
       {
         "text": "el",
-        "start": 550.2,
+        "start": 550.24,
         "end": 550.62
       },
       {
@@ -3542,66 +3359,100 @@
         "end": 550.88
       },
       {
-        "text": "dice,",
+        "text": "dice.",
         "start": 550.88,
-        "end": 551.0
+        "end": 551.02
+      }
+    ],
+    "translation": "And the teacher says."
+  },
+  {
+    "text": "Pero, pero.",
+    "start": 551.14,
+    "end": 551.9,
+    "words": [
+      {
+        "text": "Pero,",
+        "start": 551.14,
+        "end": 551.58
       },
       {
-        "text": "pero,",
-        "start": 551.16,
-        "end": 551.56
-      },
-      {
-        "text": "pero,",
+        "text": "pero.",
         "start": 551.66,
         "end": 551.9
-      },
+      }
+    ],
+    "translation": "But, but."
+  },
+  {
+    "text": "No, no, no, no, no.",
+    "start": 551.98,
+    "end": 552.96,
+    "words": [
       {
-        "text": "no,",
-        "start": 551.9,
-        "end": 552.4
+        "text": "No,",
+        "start": 551.98,
+        "end": 552.42
       },
       {
         "text": "no,",
         "start": 552.52,
-        "end": 552.62
+        "end": 552.6
+      },
+      {
+        "text": "no,",
+        "start": 552.64,
+        "end": 552.74
+      },
+      {
+        "text": "no,",
+        "start": 552.76,
+        "end": 552.84
       },
       {
         "text": "no.",
-        "start": 552.68,
-        "end": 552.78
+        "start": 552.88,
+        "end": 552.96
       }
     ],
-    "translation": "And the teacher says, but, but, no, no, no."
+    "translation": "No, no, no, no, no."
   },
   {
-    "text": "Dice Alonso, es lo más justo.",
-    "start": 552.88,
-    "end": 556.2,
+    "text": "Dice Alonso.",
+    "start": 552.98,
+    "end": 554.66,
     "words": [
       {
         "text": "Dice",
-        "start": 552.88,
-        "end": 553.46
+        "start": 552.98,
+        "end": 553.44
       },
       {
-        "text": "Alonso,",
-        "start": 553.46,
+        "text": "Alonso.",
+        "start": 553.44,
         "end": 554.66
-      },
+      }
+    ],
+    "translation": "It says Alonso."
+  },
+  {
+    "text": "Es lo más justo.",
+    "start": 555.48,
+    "end": 556.2,
+    "words": [
       {
-        "text": "es",
-        "start": 554.74,
-        "end": 555.54
+        "text": "Es",
+        "start": 555.48,
+        "end": 555.56
       },
       {
         "text": "lo",
-        "start": 555.54,
-        "end": 555.72
+        "start": 555.56,
+        "end": 555.7
       },
       {
         "text": "más",
-        "start": 555.72,
+        "start": 555.7,
         "end": 555.9
       },
       {
@@ -3610,26 +3461,26 @@
         "end": 556.2
       }
     ],
-    "translation": "Alonso says, it's the fairest thing."
+    "translation": "It's the fairest thing."
   },
   {
     "text": "El maestro corta la naranja y le da a las niñas media naranja y media naranja.",
-    "start": 557.38,
-    "end": 566.56,
+    "start": 557.44,
+    "end": 566.52,
     "words": [
       {
         "text": "El",
-        "start": 557.38,
+        "start": 557.44,
         "end": 558.16
       },
       {
         "text": "maestro",
         "start": 558.16,
-        "end": 558.68
+        "end": 558.64
       },
       {
         "text": "corta",
-        "start": 558.68,
+        "start": 558.64,
         "end": 559.98
       },
       {
@@ -3645,11 +3496,11 @@
       {
         "text": "y",
         "start": 561.68,
-        "end": 562.9
+        "end": 562.84
       },
       {
         "text": "le",
-        "start": 562.9,
+        "start": 562.84,
         "end": 563.1
       },
       {
@@ -3660,21 +3511,21 @@
       {
         "text": "a",
         "start": 563.3,
-        "end": 563.36
+        "end": 563.34
       },
       {
         "text": "las",
-        "start": 563.36,
+        "start": 563.34,
         "end": 563.44
       },
       {
         "text": "niñas",
         "start": 563.44,
-        "end": 563.82
+        "end": 563.8
       },
       {
         "text": "media",
-        "start": 563.82,
+        "start": 563.8,
         "end": 564.94
       },
       {
@@ -3685,39 +3536,39 @@
       {
         "text": "y",
         "start": 565.5,
-        "end": 565.76
+        "end": 565.74
       },
       {
         "text": "media",
-        "start": 565.76,
+        "start": 565.74,
         "end": 566.06
       },
       {
         "text": "naranja.",
         "start": 566.06,
-        "end": 566.56
+        "end": 566.52
       }
     ],
     "translation": "The teacher cuts the orange and gives the girls half orange and half orange."
   },
   {
     "text": "Pero las niñas no estaban felices.",
-    "start": 567.84,
+    "start": 567.28,
     "end": 570.74,
     "words": [
       {
         "text": "Pero",
-        "start": 567.61,
+        "start": 567.28,
         "end": 568.0
       },
       {
         "text": "las",
         "start": 568.0,
-        "end": 568.18
+        "end": 568.2
       },
       {
         "text": "niñas",
-        "start": 568.18,
+        "start": 568.2,
         "end": 568.58
       },
       {
@@ -3740,17 +3591,17 @@
   },
   {
     "text": "Las niñas estaban tristes.",
-    "start": 572.1,
-    "end": 574.64,
+    "start": 571.38,
+    "end": 574.62,
     "words": [
       {
         "text": "Las",
-        "start": 571.73,
-        "end": 572.12
+        "start": 571.38,
+        "end": 572.1
       },
       {
         "text": "niñas",
-        "start": 572.12,
+        "start": 572.1,
         "end": 572.46
       },
       {
@@ -3761,7 +3612,7 @@
       {
         "text": "tristes.",
         "start": 574.08,
-        "end": 574.64
+        "end": 574.62
       }
     ],
     "translation": "The girls were sad."
@@ -3774,42 +3625,24 @@
       {
         "text": "Y",
         "start": 578.58,
-        "end": 579.36
+        "end": 579.3
       },
       {
         "text": "lloraban.",
-        "start": 579.36,
+        "start": 579.3,
         "end": 579.88
       }
     ],
     "translation": "And they cried."
   },
   {
-    "text": "Y lloraban.",
-    "start": 581.1,
-    "end": 582.04,
-    "words": [
-      {
-        "text": "Y",
-        "start": 581.1,
-        "end": 581.88
-      },
-      {
-        "text": "lloraban.",
-        "start": 581.88,
-        "end": 582.04
-      }
-    ],
-    "translation": "And they cried."
-  },
-  {
     "text": "Lloraban.",
-    "start": 582.04,
+    "start": 581.66,
     "end": 582.38,
     "words": [
       {
         "text": "Lloraban.",
-        "start": 582.04,
+        "start": 581.66,
         "end": 582.38
       }
     ],
@@ -3817,17 +3650,17 @@
   },
   {
     "text": "Las niñas lloran y lloran.",
-    "start": 585.12,
+    "start": 585.48,
     "end": 587.44,
     "words": [
       {
         "text": "Las",
-        "start": 585.12,
-        "end": 585.88
+        "start": 585.48,
+        "end": 585.9
       },
       {
         "text": "niñas",
-        "start": 585.88,
+        "start": 585.9,
         "end": 586.28
       },
       {
@@ -3850,18 +3683,18 @@
   },
   {
     "text": "¿Qué pasa?",
-    "start": 589.3,
-    "end": 590.38,
+    "start": 589.34,
+    "end": 590.34,
     "words": [
       {
         "text": "¿Qué",
-        "start": 589.3,
+        "start": 589.34,
         "end": 590.06
       },
       {
         "text": "pasa?",
         "start": 590.06,
-        "end": 590.38
+        "end": 590.34
       }
     ],
     "translation": "What's going on?"
@@ -3869,34 +3702,34 @@
   {
     "text": "¿Qué pasa?",
     "start": 592.04,
-    "end": 593.14,
+    "end": 592.98,
     "words": [
       {
         "text": "¿Qué",
         "start": 592.04,
-        "end": 592.8
+        "end": 592.76
       },
       {
         "text": "pasa?",
-        "start": 592.8,
-        "end": 593.14
+        "start": 592.76,
+        "end": 592.98
       }
     ],
     "translation": "What's going on?"
   },
   {
     "text": "Pregunta Alonso.",
-    "start": 593.78,
+    "start": 593.84,
     "end": 595.28,
     "words": [
       {
         "text": "Pregunta",
-        "start": 593.78,
-        "end": 594.54
+        "start": 593.84,
+        "end": 594.56
       },
       {
         "text": "Alonso.",
-        "start": 594.54,
+        "start": 594.56,
         "end": 595.28
       }
     ],
@@ -3904,12 +3737,12 @@
   },
   {
     "text": "¿Por qué lloran?",
-    "start": 595.48,
+    "start": 595.52,
     "end": 596.78,
     "words": [
       {
         "text": "¿Por",
-        "start": 595.48,
+        "start": 595.52,
         "end": 596.24
       },
       {
@@ -3926,57 +3759,42 @@
     "translation": "Why are they crying?"
   },
   {
-    "text": "Cada una tiene un lugar y un lugar nuevo.",
-    "start": 598.12,
+    "text": "Cada una tiene su propia realidad.",
+    "start": 598.18,
     "end": 599.98,
     "words": [
       {
         "text": "Cada",
-        "start": 598.12,
-        "end": 598.88
+        "start": 598.18,
+        "end": 598.9
       },
       {
         "text": "una",
-        "start": 598.88,
-        "end": 599.24
+        "start": 598.9,
+        "end": 599.26
       },
       {
         "text": "tiene",
-        "start": 599.24,
+        "start": 599.26,
         "end": 599.9
       },
       {
-        "text": "un",
+        "text": "su",
         "start": 599.9,
         "end": 599.98
       },
       {
-        "text": "lugar",
+        "text": "propia",
         "start": 599.98,
         "end": 599.98
       },
       {
-        "text": "y",
-        "start": 599.98,
-        "end": 599.98
-      },
-      {
-        "text": "un",
-        "start": 599.98,
-        "end": 599.98
-      },
-      {
-        "text": "lugar",
-        "start": 599.98,
-        "end": 599.98
-      },
-      {
-        "text": "nuevo.",
+        "text": "realidad.",
         "start": 599.98,
         "end": 599.98
       }
     ],
-    "translation": "Each has a new place and place."
+    "translation": "Each has its own reality."
   },
   {
     "text": "Tiene media naranja.",
