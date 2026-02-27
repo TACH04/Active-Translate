@@ -1,27 +1,35 @@
+# Processed content (Keep this out of Git)
+staging/
+temp/
+*.json
+!config.json
+!package.json
+!tsconfig.json
+!.project
+
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-*.egg-info/
-dist/
-build/
-
-# Virtual environment
+*.py[cod]
+*$py.class
 .venv/
 venv/
-env/
+ENV/
+.env
+.env.local
 
-# Audio files (personal content, too large for git)
+# Audio files
 *.mp3
 *.wav
 *.m4a
 *.aac
-
-# Processed/staged content
-staging/
-temp/
+*.m4b
+*.flac
 
 # macOS
 .DS_Store
@@ -30,8 +38,13 @@ temp/
 
 # Editor
 .vscode/
+.idea/
 *.swp
 *.swo
 
 # direnv
 .envrc
+
+# Agent Workspace
+Canvas/
+Artifacts/
