@@ -1,6 +1,6 @@
-# 📖 Dad's Reader (Active Translate)
+# 📖 Active Translate (Language Reader)
 
-Welcome to **Dad's Reader**! This application allows you to listen to audiobooks or any audio files while following along with a synchronized, translated transcript. It's designed to be simple, local, and private.
+Welcome to **Active Translate**! This application allows you to listen to audiobooks or any audio files while following along with a synchronized, translated transcript. It's designed to be simple, local, and private.
 
 ## ✨ Features
 
@@ -12,7 +12,7 @@ Welcome to **Dad's Reader**! This application allows you to listen to audiobooks
 
 ## 🚀 Quick Start (Mac users)
 
-1.  **Open the folder** named `Dad's Reader` on your computer.
+1.  **Open the project folder** on your computer.
 2.  **Double-click** the file named `Start Active Translate.command`.
     - *Note: The first time you run this, it will download necessary AI models and dependencies. This may take a few minutes!*
 3.  **Wait** for the window to say **"✅ App is running!"**.
